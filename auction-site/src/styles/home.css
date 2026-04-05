@@ -1,0 +1,403 @@
+/* Live tournament dashboard — all rules scoped under .live-home to avoid collision with t20wc24/ipl25 HomePage.css */
+.live-home {
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-loading {
+  display: flex;
+  justify-content: center;
+  padding: 28px;
+}
+
+[data-theme="dark"] .live-home .home-waiting {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.live-home .home-grid {
+  font-size: 0.8125rem;
+  display: grid;
+  grid-template-areas: "a b c d";
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  align-items: stretch;
+  justify-items: stretch;
+  gap: 14px;
+  padding: 4px 0 16px;
+}
+
+.live-home .home-grid > .home-card {
+  min-height: 0;
+}
+
+.live-home .main-table.home-card,
+.live-home .today-table.home-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.live-home .home-grid2 {
+  display: grid;
+  grid-template-areas: "e f";
+  grid-template-columns: 5fr 3fr;
+  gap: 14px;
+  padding: 0px 0px 10px;
+}
+
+.live-home .main-table {
+  grid-area: a;
+}
+.live-home .today-table {
+  grid-area: b;
+}
+.live-home .main-contributor {
+  grid-area: c;
+}
+.live-home .matches-left {
+  grid-area: d;
+}
+.live-home .graph-1 {
+  grid-area: e;
+  min-width: 0;
+}
+.live-home .total-contribution {
+  grid-area: f;
+}
+
+.live-home .home-card {
+  font-size: 0.8125rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="light"] .live-home .home-card {
+  background: #ffffff;
+  border: 1px solid #e8ecf1;
+}
+
+[data-theme="dark"] .live-home .home-card {
+  background: #0a0b0c;
+  border: 1px solid #23252a;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.live-home .points-table {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
+  max-width: 420px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 8px 7px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.live-home .table-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+}
+
+.live-home .points-table > .table-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+
+.live-home .points-table .table-header .team-header {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+
+.live-home .points-table .table-header .team-header,
+.live-home .points-table .table-header .movement-header,
+.live-home .points-table .table-header .points-header,
+.live-home .points-table .table-header .difference-header {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+[data-theme="light"] .live-home .table-header {
+  background-color: #f1f5f9;
+  color: #475569;
+}
+
+[data-theme="dark"] .live-home .table-header {
+  background-color: #141414;
+  border: 1px solid #23252a;
+  color: #e8e8e8;
+}
+
+.live-home .table-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 0 0 auto;
+}
+
+.live-home .points-table .table-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* align-items: baseline; */
+  padding: 6px 10px 5px;
+  border-radius: 4px;
+}
+
+[data-theme="light"] .live-home .points-table .table-row {
+  background: #f8fafc;
+  border: 1px solid #eef2f6;
+  color: #1e293b;
+}
+
+[data-theme="dark"] .live-home .points-table .table-row {
+  background: #141414;
+  border: 1px solid #23252a;
+  color: #e8e8e8;
+}
+
+.live-home .points-table .points-header {
+  margin-left: auto;
+  margin-right: 37px;
+}
+.live-home .points-table .points-column {
+  margin-right: 10px;
+}
+
+.live-home .points-table .difference-header {
+  margin-right: 12px;
+}
+
+.live-home .points-table .difference-column {
+  margin-right: 12px;
+}
+
+.live-home .points-table .movement-header {
+  flex: 0 0 2.25rem;
+  text-align: center;
+  margin-right: 0;
+}
+
+.live-home .team-column {
+  display: flex;
+  align-items: center;
+  /* align-items: baseline; */
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+
+.live-home .team-owner-logo {
+  flex: 0 0 auto;
+  width: 19px;
+  /* height: 26px; */
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.live-home .points-table .table-row .movement-column {
+  flex: 0 0 2.25rem;
+  margin-left: 0;
+}
+
+.live-home .movement-column {
+  font-size: 0.78rem;
+  /* margin-right: 5px; */
+  font-weight: 500;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  /* line-height: 1.6; */
+}
+
+[data-theme="light"] .live-home .movement-column--up {
+  color: #15803d;
+}
+
+[data-theme="light"] .live-home .movement-column--down {
+  color: #b91c1c;
+}
+
+[data-theme="light"] .live-home .movement-column--same,
+[data-theme="light"] .live-home .movement-column--na {
+  color: #94a3b8;
+}
+
+[data-theme="dark"] .live-home .movement-column--up {
+  color: #4ade80;
+}
+
+[data-theme="dark"] .live-home .movement-column--down {
+  color: #f87171;
+}
+
+[data-theme="dark"] .live-home .movement-column--same,
+[data-theme="dark"] .live-home .movement-column--na {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.live-home .team-name {
+  font-size: 0.78rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.live-home .points-column,
+.live-home .difference-column {
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-align: right;
+  min-width: 44px;
+}
+
+.live-home .team-header {
+  flex: 1;
+  text-align: left;
+}
+
+.live-home .team-header2 {
+  flex: 1;
+  text-align: center;
+}
+
+.live-home .main-contributor {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px 10px;
+  margin: 0;
+  overflow: hidden;
+  min-height: 200px;
+}
+
+/* Primary tournament color (--auction-accent from LiveTournamentLayout). */
+.live-home .home-main-contributor--light {
+  background-color: var(--auction-accent) !important;
+  color: #fff;
+}
+
+.live-home .home-main-contributor--light .highest-contributor-title,
+.live-home .home-main-contributor--light .home-hc-hint {
+  color: #fff;
+}
+
+/* Dark mode: same surface as [data-theme="dark"] .live-home .home-card (#0a0b0c); blobs use tournament primary (HomePage.jsx). */
+.live-home .home-main-contributor--dark {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.live-home .home-main-contributor--dark .highest-contributor-title {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.live-home .home-main-contributor--dark .home-hc-hint {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.live-home .home-blob-stack {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.live-home .home-blob {
+  position: absolute;
+  width: 270px;
+  z-index: -4;
+}
+.live-home .home-blob--1,.live-home .home-blob--2{
+  opacity: 0.2;
+  rotate: -20deg;
+  }
+  .live-home .home-blob--3,.live-home .home-blob--4{
+  opacity: 0.24;
+  rotate: -50deg;
+}
+
+.live-home .home-main-contributor__inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.live-home .matches-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 7px 16px;
+  min-height: 220px;
+}
+
+.live-home .home-matches-left-title {
+  align-self: stretch;
+}
+
+.live-home .graph-1 {
+  height: fit-content;
+  padding: 8px;
+  min-width: 0;
+}
+
+.live-home .total-contribution {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 8px;
+}
+
+@media (max-width: 1100px) {
+  .live-home .home-grid {
+    grid-template-areas:
+      "a b"
+      "c d";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .live-home .home-grid {
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d";
+    grid-template-columns: 1fr;
+  }
+  .live-home .home-grid2 {
+    grid-template-areas: "e" "f";
+    grid-template-columns: 1fr;
+    /* width: 100vw; */
+  }
+  .live-home .home-main-contributor__inner{
+    min-height: 45vh;
+  }
+}

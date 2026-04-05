@@ -1,0 +1,241 @@
+/* Today table + highest contributor — scoped under .live-home (live dashboard only) */
+.live-home .points-table2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
+  margin: 0 auto;
+  padding: 8px 7px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Live home section titles — same treatment as .points-table > .table-header / today strip */
+.live-home .home-section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 8px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  font-family: inherit;
+}
+
+[data-theme="light"] .live-home .home-section-title {
+  background-color: #f1f5f9;
+  color: #475569;
+}
+
+/* Neutral row surface (#141414) — matches container #0a0b0c */
+[data-theme="dark"] .live-home .home-section-title {
+  background-color: #141414;
+  border: 1px solid #23252a;
+  color: #e8e8e8;
+}
+
+.live-home .points-table2 .table-header {
+  display: flex;
+  justify-content: center;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+.live-home .today-points-header__label {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+[data-theme="light"] .live-home .today-points-header {
+  background-color: #f1f5f9;
+}
+
+[data-theme="light"] .live-home .today-points-header__label {
+  color: #334155;
+}
+
+[data-theme="dark"] .live-home .today-points-header {
+  background-color: #141414;
+  border: 1px solid #23252a;
+}
+
+[data-theme="dark"] .live-home .today-points-header__label {
+  color: #e8e8e8;
+}
+
+.live-home .points-table2 .table-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.live-home .points-table2 .table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px 5px;
+  border-radius: 4px;
+}
+.live-home .points-table2 .table-row:hover {
+  background-color: #141414;
+  color: #e2e8f0;
+}
+[data-theme="dark"]
+  .live-home
+  .points-table2
+  .table-row:not(.home-today-row--owner-colored):hover {
+  background-color: #141414;
+  color: #f1f5f9;
+}
+
+[data-theme="dark"]
+  .live-home
+  .points-table2
+  .home-today-row--owner-colored:hover {
+  filter: brightness(1.06);
+  scale: 1.01;
+}
+
+
+[data-theme="light"]
+  .live-home
+  .points-table2
+  .table-row:not(.home-today-row--owner-colored) {
+  background: #f8fafc;
+  border: 1px solid #eef2f6;
+}
+
+[data-theme="dark"]
+  .live-home
+  .points-table2
+  .table-row:not(.home-today-row--owner-colored) {
+  background: #141414;
+  border: 1px solid #23252a;
+}
+
+.live-home .points-table2 .home-today-row--owner-colored {
+  background-color: var(--owner-bg, #64748b);
+  color: var(--owner-fg, #ffffff);
+  border: 1px solid rgba(35, 37, 42, 0.273);
+}
+
+[data-theme="light"] .live-home .points-table2 .team-name,
+[data-theme="light"] .live-home .points-table2 .points-column {
+  color: #1e293b;
+}
+
+[data-theme="dark"] .live-home .points-table2 .team-name,
+[data-theme="dark"] .live-home .points-table2 .points-column {
+  color: #e8e8e8;
+}
+
+[data-theme="light"]
+  .live-home
+  .points-table2
+  .home-today-row--owner-colored
+  .team-name,
+[data-theme="light"]
+  .live-home
+  .points-table2
+  .home-today-row--owner-colored
+  .points-column,
+[data-theme="dark"]
+  .live-home
+  .points-table2
+  .home-today-row--owner-colored
+  .team-name,
+[data-theme="dark"]
+  .live-home
+  .points-table2
+  .home-today-row--owner-colored
+  .points-column {
+  color: inherit;
+}
+
+.live-home .home-waiting {
+  padding: 20px;
+  text-align: center;
+  color: #64748b;
+}
+
+.live-home .home-hc-hint {
+  text-align: center;
+  margin: 0;
+  padding: 12px;
+}
+
+.live-home .points {
+  background-color: white;
+  border-radius: 0.35rem;
+  padding: 4px 8px;
+  color: #0a0a0a;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-bottom: 12px;
+  margin-top: 4px;
+}
+
+.live-home .home-main-contributor--dark .points {
+  background: #f1f5f9;
+}
+
+.live-home .highest-contributor-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  line-height: 1.35;
+}
+
+.live-home .contributing-players-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.92);
+  color: #0a0a0a;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: min(100%, 280px);
+}
+
+.live-home .home-main-contributor--dark .contributing-players-list {
+  background: #f8fafc;
+}
+
+.live-home .contributor-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.live-home .highest-contributor-item {
+  display: none;
+}
+
+.live-home .player-name {
+  flex: 1;
+}
+
+.live-home .player-points {
+  font-weight: 700;
+}

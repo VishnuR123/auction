@@ -1,0 +1,49 @@
+.CVC-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 40px;
+}
+
+.captain-cont{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.captain-cont *{
+    padding: 0px;
+    margin: 0px;
+}
+
+.captain-cont > h2{
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.captain-cont > table > thead > tr{
+text-align: left;
+}
+.captain-cont > table *{
+    padding: 5px ; 
+}
+.captain-table > tbody > tr:hover{
+    background-color: #c4ffaf; 
+}
+.vice-table > tbody > tr:hover{
+    background-color: #e1affd; 
+}
+.captain-cont > table > thead > tr{
+text-align: left;
+}
+
+@media (max-width:400px) {
+    .CVC-main{
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 20px;
+    }
+
+}

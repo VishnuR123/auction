@@ -1,0 +1,235 @@
+[
+    {
+      "personName": "Vishnu",
+      "points": 0,
+      "players":[
+        "Prasidh Krishna",
+        "Harshit Rana",
+        "Spencer Johnson",
+        "Anrich Nortje",
+        "Yuzvendra Chahal",
+        "Karn Sharma",
+        "Chetan Sakariya",
+        "Noor Ahmad",
+        "Sanju Samson",
+        "Simran Singh",
+        "Abhishek Porel",
+        "Shreyas Iyer",
+        "David Warner",
+        "David Miller",
+        "Jason Roy",
+        "Phil Salt",
+        "Pat Cummins",
+        "Axar Patel",
+        "Harshal Patel",
+        "Mahipal Lomror"
+      ]
+    },
+    {
+        "personName":"Yukesh",
+        "points":0,
+        "players":[
+          "Mukesh Kumar",
+          "Ravi Bishnoi",
+          "Sai Kishore",
+          "Naveen-ul-Haq",
+          "Rishabh Pant",
+          "Dhruv Jurel",
+          "Mayank Agarwal",
+          "Abdul Samad",
+          "Aiden Markram",
+          "Manish Pandey",
+          "Rajat Patidar",
+          "B Sai Sudharsan",
+          "Hardik Pandya",
+          "Glenn Maxwell",
+          "Marcus Stoinis",
+          "Shahrukh Khan",
+          "Mitchell Marsh",
+          "Jack Fraser-Mcgurk",
+          "Abhishek Sharma"
+        ]
+        
+    },
+    {
+        "personName":"Sathish",
+        "points":0,
+        "players":[
+          "Avesh Khan",
+          "Shivam Mavi",
+          "Mayank Yadav",
+          "Bhuvneshwar Kumar",
+          "Lockie Ferguson",
+          "Maheesh Theekshana",
+          "Kumar Kartikeya",
+          "Ishan Kishan",
+          "Wriddhiman Saha",
+          "Srikar Bharat",
+          "Rahmanullah Gurbaz",
+          "Rohit Sharma",
+          "Shimron Hetmyer",
+          "Suryakumar Yadav",
+          "Kane Williamson",
+          "Andre Russell",
+          "Tim David",
+          "Marco Jansen",
+          "Nehal Wadhera"
+        ]
+        
+    },
+    {
+        "personName":"Shriman",
+        "points":0,
+        "players":[
+          "Jasprit Bumrah",
+          "Kagiso Rabada",
+          "Dilshan Madushanka",
+          "Nuwan Thushara",
+          "Jaydev Unadkat",
+          "Kartik Tyagi",
+          "Mohit Sharma",
+          "Matheesha Pathirana",
+          "Jos Buttler",
+          "Anuj Rawat",
+          "Sameer Rizvi",
+          "Faf du Plessis",
+          "Travis Head",
+          "Cameron Green",
+          "Krunal Pandya",
+          "Venkatesh Iyer",
+          "Deepak Hooda",
+          "Tilak Varma",
+          "Ayush Badoni"
+        ]
+        
+          
+    },
+    {
+        "personName":"Saran",
+        "points":0,
+        "players":[
+          "Deepak Chahar",
+          "Mohammed Siraj",
+          "Umesh Yadav",
+          "Arshdeep Singh",
+          "T Natarajan",
+          "Kuldeep Yadav",
+          "Adam Zampa",
+          "Moeen Ali",
+          "Sandeep Sharma",
+          "Tushar Deshpande",
+          "Kumar Kushagra",
+          "Dinesh Karthik",
+          "Prithvi Shaw",
+          "Harry Brook",
+          "Mitchell Santner",
+          "Yashasvi Jaiswal",
+          "Conway",
+          "Rachin Ravindra",
+          "Rinku Singh",
+          "Ravindra Jadeja",
+          "Nitish Rana"
+        ]
+        
+          
+    },
+    {
+        "personName":"Subu",
+        "points":0,
+        "players":[
+          "Alzarri Joseph",
+          "Khaleel Ahmed",
+          "Gerald Coetzee",
+          "Mustafizur Rahman",
+          "Piyush Chawla",
+          "Suyash Sharma",
+          "Mukesh Choudhary",
+          "KL Rahul",
+          "Jonny Bairstow",
+          "Quinton de Kock",
+          "Virat Kohli",
+          "Rahul Tripathi",
+          "Abhinav Manohar",
+          "Daryl Mitchell",
+          "Rahul Tewatia",
+          "Sunil Narine",
+          "Shardul Thakur",
+          "Shivam Dube"
+        ]
+        
+    },
+    {
+        "personName":"Sanjay",
+        "points":0,
+        "players":[
+          "Mitchell Starc",
+          "Trent Boult",
+          "Mohammed Shami",
+          "M Siddharth",
+          "Yash Dayal",
+          "Umran Malik",
+          "Shreyas Gopal",
+          "Nicholas Pooran",
+          "Jitesh Sharma",
+          "Shikhar Dhawan",
+          "Shubman Gill",
+          "Devdutt Padikkal",
+          "Ajinkya Rahane",
+          "Sam Curran",
+          "Washington Sundar",
+          "Ravichandran Ashwin",
+          "Mohammad Nabi",
+          "Vijay Shankar",
+          "Sikandar Raza",
+          "Nithish Reddy"
+        ]
+        
+          
+    },
+    {
+        "personName":"Sakthi",
+        "points":0,
+        "players":[
+            "Marnus Labuschagne",
+            "Logan van Beek",
+            "Iftikhar Ahmed",
+            "Pathum Nissanka",
+            "Shariz Ahmad",
+            "Mark Chapman",
+            "Temba Bavuma",
+            "Brydon Carse",
+            "Shaheen Afridi"
+          ]
+          
+    },
+    {
+        "personName":"Shashwat",
+        "points":0,
+        "players":[
+          "Varun Chakravarthy",
+          "Rahul Chahar",
+          "Navdeep Saini",
+          "Jason Behrendorff",
+          "Nandre Burger",
+          "Mayank Markande",
+          "Kuldeep Sen",
+          "Akash Madhwal",
+          "MS Dhoni",
+          "Heinrich Klaasen",
+          "Rilee Rossouw",
+          "Rovman Powell",
+          "Ruturaj Gaikwad",
+          "Rashid Khan",
+          "Liam Livingstone",
+          "Riyan Parag",
+          "Shahbaz Ahmed",
+          "Wanindu Hasaranga",
+          "Azmatullah Omarzai",
+          "Lalit Yadav"
+        ]
+        
+        
+    }
+    
+]
+  

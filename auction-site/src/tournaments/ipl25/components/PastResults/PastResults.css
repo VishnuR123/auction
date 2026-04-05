@@ -1,0 +1,187 @@
+/* Scoped under .ipl25-past-res-main so we never reuse the global class name "container"
+   (ipl24/wc23 archive PointsTable and other routes use .container — that caused collisions). */
+
+.ipl25-past-res-main {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Left column for Total Points, right column for tournaments */
+  gap: 20px;
+  padding: 20px;
+  max-height: 100vh;
+  overflow-y: auto;
+  align-items: center;
+}
+
+.ipl25-past-res-main h2 {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+/* Total Points Table */
+.total-results {
+  justify-self: center;
+  width: 100%;
+  padding: 20px;
+  max-height: fit-content;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tournament Results Container */
+.tournament-results {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* International Tournaments */
+.international-tournaments {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex: 1;
+}
+
+/* IPL Tournaments */
+.ipl-tournaments {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* Card shell shared by cumulative + each tournament block */
+.ipl25-past-res-main .ipl25-past-res__card {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.ipl25-past-res-main .ipl25-past-res__card--empty {
+  width: 60%;
+  background-color: transparent;
+}
+
+/* Table Styling */
+.ipl25-past-res-main .ipl25-past-res__card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ipl25-past-res-main .ipl25-past-res__card table th,
+.ipl25-past-res-main .ipl25-past-res__card table td {
+  padding: 4px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.ipl25-past-res-main .ipl25-past-res__card table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.ipl25-past-res-main .ipl25-past-res__card:hover table td {
+  background-color: transparent;
+  border: none;
+  color: transparent;
+}
+
+.ipl25-past-res-main .ipl25-past-res__card:hover table th {
+  background-color: transparent;
+  border: none;
+  color: transparent;
+}
+
+/* Hover Effects for Background Images */
+.ipl25-past-res-main .ipl-23:hover,
+.ipl25-past-res-main .ipl-24:hover,
+.ipl25-past-res-main .wc-23:hover,
+.ipl25-past-res-main .t20wc-24:hover,
+.ipl25-past-res-main .ct25:hover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  border: none;
+}
+
+.total-results:hover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: transparent;
+  background-image: url("../../assets/logo/Nine 11.svg");
+}
+
+.ipl25-past-res-main .wc-23 table tr:nth-child(2) > td:nth-child(1) {
+  text-decoration: line-through;
+  color: red;
+}
+
+.ipl25-past-res-main .wc-23 table tr:nth-child(2) > td:nth-child(2) {
+  text-decoration: line-through;
+  color: red;
+}
+
+.ipl25-past-res-main .ipl-23 table tr:nth-child(1) > td:nth-child(1) {
+  text-decoration: line-through;
+  background-color: rgb(161, 161, 161);
+}
+
+.ipl25-past-res-main .ipl-23 table tr:nth-child(1) > td:nth-child(2) {
+  text-decoration: line-through;
+  background-color: rgb(161, 161, 161);
+}
+
+.ipl25-past-res-main .ipl-23:hover table tr:nth-child(1) > td:nth-child(1) {
+  background-color: transparent;
+}
+
+.ipl25-past-res-main .ipl-23:hover table tr:nth-child(1) > td:nth-child(2) {
+  background-color: transparent;
+}
+
+.ipl25-past-res-main .ipl-23:hover {
+  background-image: url("../../assets/past-results/ipl23.webp");
+}
+
+.ipl25-past-res-main .ipl-24:hover {
+  background-image: url("../../assets/past-results/ipl24.jpg");
+}
+
+.ipl25-past-res-main .wc-23:hover {
+  background-image: url("../../assets/past-results/wc-23.webp");
+}
+
+.ipl25-past-res-main .t20wc-24:hover {
+  background-image: url("../../assets/past-results/t20wc24.webp");
+}
+
+.ipl25-past-res-main .ct25:hover {
+  background-image: url("../../assets/past-results/ct25.webp");
+}
+
+@media (max-width: 450px) {
+  .ipl25-past-res-main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 1fr);
+    align-items: baseline;
+  }
+
+  .tournament-results {
+    flex-direction: column;
+  }
+
+  .international-tournaments,
+  .ipl-tournaments {
+    flex-direction: column;
+  }
+
+  .ipl25-past-res-main .ipl25-past-res__card--empty {
+    display: none;
+  }
+}

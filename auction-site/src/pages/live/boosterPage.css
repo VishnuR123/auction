@@ -1,0 +1,79 @@
+.booster-page__content {
+  width: 100%;
+  max-width: min(100%, 880px);
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+.booster-page__title {
+  margin-top: 0 !important;
+  margin-bottom: 6px !important;
+}
+
+.booster-page__intro {
+  margin-bottom: 12px !important;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+}
+
+.booster-page__intro code {
+  font-size: 0.85em;
+  padding: 0 0.2em;
+  border-radius: 4px;
+  background: rgba(148, 163, 184, 0.25);
+}
+
+[data-theme="dark"] .live-shell .booster-page__intro code {
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.booster-page__tables {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 14px;
+  align-items: start;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .booster-page__tables {
+    grid-template-columns: 1fr;
+  }
+}
+
+.booster-page__section {
+  margin-bottom: 0;
+  min-width: 0;
+}
+
+.booster-page__section-title {
+  margin: 0 0 6px !important;
+  font-size: 0.875rem !important;
+  line-height: 1.3 !important;
+}
+
+/* Dense tables (scope to page so it works regardless of Table wrapper class) */
+.booster-page .ant-table {
+  font-size: 0.85rem;
+  line-height: 1.25;
+}
+
+.booster-page .ant-table-thead > tr > th {
+  padding: 4px 8px !important;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.booster-page .ant-table-tbody > tr > td {
+  padding: 3px 8px !important;
+  font-size: 0.7325rem;
+  line-height: 1.2;
+}
+
+
+[data-theme="dark"] .live-shell .booster-page .live-page__text {
+  color: rgba(255, 255, 255, 0.78);
+}

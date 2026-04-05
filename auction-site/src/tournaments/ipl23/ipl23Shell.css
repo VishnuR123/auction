@@ -1,0 +1,196 @@
+/*
+ * IPL 23 — XP desktop with one PDF window.
+ *
+ *   --ipl23-titlebar-min-height / --ipl23-titlebar-padding-y
+ *   --ipl23-pdf-window-w          Max width of the XP window
+ *   --ipl23-pdf-iframe-height     Height of the PDF iframe (scroll inside browser PDF UI)
+ */
+.ipl23-shell-root {
+  --ipl23-titlebar-min-height: 1.75rem;
+  --ipl23-titlebar-padding-y: 0.2rem;
+  /* 100% of padded foreground — avoid 94vw + padding exceeding 100vw (horizontal scroll) */
+  --ipl23-pdf-window-w: min(920px, 100%);
+  /* PDF viewer area height (iframe); internal PDF scrolling uses the browser viewer */
+  --ipl23-pdf-iframe-height: min(72vh, 820px);
+
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: #0b1120;
+  color: #e2e8f0;
+}
+
+.ipl23-shell-toolbar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 16px;
+  background: #0f172a;
+  border-bottom: 1px solid #1e293b;
+  position: relative;
+  z-index: 200;
+}
+
+.ipl23-shell-body {
+  flex: 1 1 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.ipl23-shell-desktop {
+  position: relative;
+  flex: 1 1 0;
+  min-height: 0;
+  background-color: #004e98;
+  padding: 20px 16px 44px;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* flex/grid children can’t shrink below content width without this */
+  min-width: 0;
+}
+
+.ipl23-wallpaper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.ipl23-desktop-foreground {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  pointer-events: none;
+}
+
+.ipl23-xp-window {
+  display: flex;
+  flex-direction: column;
+  width: var(--ipl23-pdf-window-w);
+  max-width: 100%;
+  min-width: 0;
+  max-height: calc(100% - 2rem);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.45);
+  pointer-events: auto;
+}
+
+.ipl23-xp-window .title-bar {
+  min-height: var(--ipl23-titlebar-min-height);
+  box-sizing: border-box;
+  padding-top: var(--ipl23-titlebar-padding-y);
+  padding-bottom: var(--ipl23-titlebar-padding-y);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.ipl23-xp-window .title-bar-text {
+  line-height: 1.2;
+}
+
+/* Scroll: vertical only at this layer; horizontal clipping avoided via width chain + FitH */
+.ipl23-window-body--pdf {
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: 1 1 auto;
+  min-height: 0;
+  min-width: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #525659;
+}
+
+.ipl23-pdf-iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: var(--ipl23-pdf-iframe-height);
+  min-height: 360px;
+  min-width: 0;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .ipl23-shell-root {
+    --ipl23-pdf-iframe-height: min(68dvh, 640px);
+  }
+
+  .ipl23-shell-desktop {
+    overflow-x: hidden;
+    padding: 12px 10px 44px;
+  }
+
+  .ipl23-desktop-foreground {
+    padding: 0.5rem;
+    padding-bottom: 5vh;
+    /* align-items: stretch; */
+  }
+
+  .ipl23-xp-window {
+    width: 80%;
+    max-width: 100%;
+    max-height: fit-content;
+  }
+}
+
+.ipl23-taskbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 150;
+  background: linear-gradient(
+    180deg,
+    #0997ff,
+    #0053ee 8%,
+    #0050ee 40%,
+    #06f 88%,
+    #06f 93%,
+    #005bff 95%,
+    #003dd7 96%,
+    #003dd7
+  );
+  height: 30px;
+  display: flex;
+  align-items: stretch;
+}
+
+.ipl23-taskbar__start {
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-style: italic;
+  border: none;
+  border-radius: 0 10px 12px 0;
+  box-shadow: 0 5px 10px #79ce71 inset;
+  background: radial-gradient(circle, #5eac56 0%, #3c873c 100%) center / cover
+    no-repeat !important;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 10px 0 6px;
+  cursor: default;
+}
+
+.ipl23-taskbar__start--logo {
+  width: auto;
+  height: 80%;
+  pointer-events: none;
+}

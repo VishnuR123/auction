@@ -1,0 +1,231 @@
+const PastResults = () => {
+    return (
+      <div className="past-res-main">
+        
+        <div className="total-results container">
+          <h2>Cumulative Results</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sortedTotalPoints.map((player) => (
+                <tr key={player.name}>
+                  <td>{player.name}</td>
+                  <td>{player.points}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="ct25 container">
+          <h2>CT 25 Results</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sortResults(ct25Results).map((player) => (
+                <tr key={player.name}>
+                  <td>{player.name}</td>
+                  <td>{player.points}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="t20wc-24 container">
+          <h2>T20WC 24 Results</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sortResults(t20wc24Results).map((player) => (
+                <tr key={player.name}>
+                  <td>{player.name}</td>
+                  <td>{player.points}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="ipl-24 container">
+          <h2>IPL 24 Results</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sortResults(ipl24Results).map((player) => (
+                <tr key={player.name}>
+                  <td>{player.name}</td>
+                  <td>{player.points}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="wc-23 container">
+          <h2>WC 23 Results</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sortResults(wc23Results).map((player) => (
+                <tr key={player.name}>
+                  <td>{player.name}</td>
+                  <td>{player.points}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="ipl-23 container">
+          <h2>IPL 23 Results</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sortResults(ipl23Results).map((player) => (
+                <tr key={player.name}>
+                  <td>{player.name}</td>
+                  <td>{player.points}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    );
+  };
+
+
+
+
+
+
+
+
+
+
+
+  .past-res-main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+        padding: 20px;
+        height: 100vh;
+        gap: 20px;
+    }
+    
+    .ct25, .t20wc-24, .ipl-24, .ipl-23, .wc-23, .total-results{
+        width: fit-content;
+        padding: 20px 40px;
+        /* height: 60vh; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .ipl-23:hover{
+        background-image: url('../../assets/past-results/ipl23.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+    .wc-23:hover{
+        background-image: url('../../assets/past-results/wc-23.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+    .ipl-24:hover{
+        background-image: url('../../assets/past-results/ipl24.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+    .t20wc-24:hover{
+        background-image: url('../../assets/past-results/t20wc24.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+    .ct25:hover{
+        background-image: url('../../assets/past-results/ct25.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+    .past-res-main table *{
+        padding: 3px;    
+        min-width: 80px;
+    }
+    .past-res-main table tr> td:nth-child(1){
+        text-align: left;
+    }
+    .past-res-main table tr > td:nth-child(2){
+        text-align: right;
+    }
+    .past-res-main table tr> th:nth-child(1){
+        text-align: left;
+    }
+    .past-res-main table tr > th:nth-child(2){
+        text-align: right;
+    }
+    
+    .total-results > h2{
+        text-align:center;
+    }
+    
+    .wc-23 table tr:nth-child(2) > td:nth-child(1) {
+        text-decoration: line-through;
+        color: red;
+        
+    }
+    
+    .wc-23 table tr:nth-child(2) > td:nth-child(2) {
+        text-decoration: line-through;
+        color: red;
+    }
+    s
+    /* .ipl-24, .ipl-23, .wc-23 > table > tbody > tr> td:nth-child(1){
+        background-color: ;
+    } */
+    
+    @media (max-width: 400px) {
+        .past-res-main{
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: repeat(4,1fr);
+            align-items: baseline;
+        }
+    }

@@ -1,0 +1,290 @@
+:root {
+  --purple : #10044a;
+  --pink1 :#da2c5a;
+  --pink2:#ff0088;
+  --blue:#3c2cfb;
+  --vampireblack:#0A0A0A;
+}
+.t20wc24-home{
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.t20wc24-home .home-grid {
+  font-size: medium;
+  display: grid;
+  grid-template-areas:
+    "a b c d";
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  align-items: stretch;
+  justify-items: stretch;
+  gap: 30px;
+  padding: 30px 30px;
+}
+
+.t20wc24-home .home-grid2 {
+  font-size: medium;
+  display: grid;
+  grid-template-areas:"e f";
+  grid-template-columns: 5fr 3fr;
+  gap: 30px;
+  padding-left:30px ;
+  padding-right:30px ;
+  padding-bottom: 30px;
+}
+/* HOME GRID 1 */
+.t20wc24-home .home-grid > div{
+  max-height: 43vh;
+}
+.t20wc24-home .main-table { grid-area: a;}
+.t20wc24-home .today-table { grid-area: b;}
+.t20wc24-home .main-contributor { grid-area: c ;}
+.t20wc24-home .matches-left{grid-area: d;}
+/* HOME GRID 2 */
+.t20wc24-home .graph-1 { grid-area: e; min-width: 500px; }
+.t20wc24-home .total-contribution{grid-area: f;}
+
+.t20wc24-home .container {
+  font-size: 0.9rem;
+  gap: 0;
+  background: #fff;
+  /* background: #e1eaf1; */
+  border-radius: 0.5rem;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.055);
+}
+
+.t20wc24-home .home-title {
+  font-size: 2rem;
+  font-weight: 500 !important;
+  text-align: center;
+}
+/* MAIN TABLE */
+.t20wc24-home .main-table{
+  padding: 10px ;
+  /* margin: 0; */
+  /* margin-bottom: 15px; */
+}
+.t20wc24-home .main-table h3{
+  padding: 10px 10px 5px 18px;
+  margin: 0px 0;
+  font-weight: 400;
+  color: var(--vampireblack);
+}
+.t20wc24-home .main-table > ul{
+  list-style-type: none;
+  padding: 0 10px;
+  margin: 0;
+  }
+.t20wc24-home .main-table > ul> li{
+  padding:  0 0 0 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr .75fr;
+  justify-content: space-between;
+  justify-items: baseline;
+  /* gap: 15%; */
+  border-radius: 0.25rem;
+}
+
+.t20wc24-home .main-table > ul> li:hover{
+  background-color:#1f0d7936;
+font-weight: 700;
+}
+/* TODAY TABLE */
+.t20wc24-home .today-table{
+  padding: 10px;
+  margin: 0;
+}
+.t20wc24-home .today-table h3{
+  padding: 10px 10px 5px 18px;
+  margin: 0;
+  font-weight: 400;
+  color: var(--vampireblack);
+  /* text-transform: uppercase;
+  letter-spacing: 0.05ch; */
+}
+.t20wc24-home .today-table > ul{
+  list-style-type: none;
+  padding: 0 10px;
+  margin: 0;
+}
+.t20wc24-home .today-table > ul> li{
+  padding:  0 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  border-radius: 0.25rem;
+}
+
+.t20wc24-home .today-table > ul> li:hover{
+  background-color: #ff00881f;
+  font-weight: 700;
+}
+/* MAIN CONTRIBUTOR */
+.t20wc24-home .main-contributor{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+  padding: 0px;
+  background-color: var(--purple);
+  color: white;
+  font-weight: 300;
+  z-index: -2;
+  overflow: hidden;
+}
+.t20wc24-home .main-contributor > h3,
+.t20wc24-home .main-contributor > p {
+  z-index: -1;
+  margin-bottom: 3px;
+  text-align: center;
+  max-width: 80%;
+}
+.t20wc24-home .blob,.t20wc24-home .blob1,.t20wc24-home .blob2,.t20wc24-home .blob3{
+  /* bottom: -60px; */
+  z-index: -4;
+  /* bottom: -5px;
+  left: -20px; */
+  /* opacity: 0.2; */
+  width: 270px;
+  /* height: 250px; */
+  position: absolute; 
+}
+.t20wc24-home .blob1,.t20wc24-home .blob{
+  opacity: 0.2;
+  rotate: -20deg;
+  }
+  .t20wc24-home .blob3,.t20wc24-home .blob2{
+  opacity: 0.24;
+  rotate: -50deg;
+}
+
+/* MATCHES LEFT */
+.t20wc24-home .matches-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.t20wc24-home .matches-left > h3{
+  padding: 10px 10px 10px 0px;
+  font-weight: 500;
+margin: 10px 0;
+}
+/* GRAPH 1 */
+.t20wc24-home .graph-1{
+  height: fit-content;
+  padding: 10px;
+  /* background-color: #eb413e; */
+  /* background-color: #10044a; */
+  /* color: #fff; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+
+}
+.t20wc24-home .graph-1 h3{
+  padding: 0;
+  font-weight: 500;
+  margin: 10px 0px 20px 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.t20wc24-home .total-contribution{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.t20wc24-home .total-contribution > h3{
+  /* padding-top: 20px; */
+  font-weight: 500;
+  margin: 0;
+  overflow: hidden;
+}
+@media (max-width:400px) {
+  .t20wc24-home{
+    width: 100dvw;
+  }
+  .t20wc24-home .home-grid{
+    grid-template-areas:
+    "a" 
+    "b" 
+    "c" 
+    "d";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.7fr;
+    justify-items:stretch;
+    padding: 20px 10px 20px 10px;
+    gap: 20px;
+  }
+  .t20wc24-home .home-grid2{
+    grid-template-areas:
+    "e"
+    "f" ;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto ;
+    /* justify-items:stretch; */
+  }
+}
+
+/* Isolate from live site home widgets (.points-table2 etc.) */
+.t20wc24-home .t20wc24-today-points {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.t20wc24-home .t20wc24-today-points .table-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #555;
+}
+
+.t20wc24-home .t20wc24-today-points .table-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.t20wc24-home .t20wc24-today-points .table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 5.4px 15px;
+  padding-left: 10px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 3px;
+}
+
+.t20wc24-home .t20wc24-today-points .team-column {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.t20wc24-home .t20wc24-today-points .team-header2 {
+  flex: 1;
+  text-align: center;
+}

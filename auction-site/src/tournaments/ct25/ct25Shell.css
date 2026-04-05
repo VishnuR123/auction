@@ -1,0 +1,237 @@
+/*
+ * CT 25 — same knobs as T20 WC 26 XP desktop (see variable names below).
+ *
+ * Sizes:
+ *   --ct25-points-img-w / --ct25-players-img-w
+ * Position:
+ *   --ct25-points-bottom / --ct25-points-center-nudge (bottom band, left of centre)
+ *   --ct25-players-top / --ct25-players-right (top-right)
+ * Title bar:
+ *   --ct25-titlebar-min-height / --ct25-titlebar-padding-y
+ */
+.ct25-shell-root {
+  --ct25-points-img-w: 338px !important;
+  --ct25-players-img-w: 708px;
+
+  --ct25-titlebar-min-height: 1.75rem;
+  --ct25-titlebar-padding-y: 0.2rem;
+
+  /* Points: lower band, slightly left of horizontal centre */
+  --ct25-points-bottom: clamp(5rem, 14vh, 8.5rem);
+  --ct25-points-center-nudge: clamp(1rem, 14vw, 15rem);
+  /* Player list: upper-right */
+  --ct25-players-top: clamp(1rem, 4vh, 2.5rem);
+  --ct25-players-right: clamp(0.75rem, 4vw, 3.5rem);
+
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: #0b1120;
+  color: #e2e8f0;
+}
+
+.ct25-shell-toolbar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 16px;
+  background: #0f172a;
+  border-bottom: 1px solid #1e293b;
+  position: relative;
+  z-index: 200;
+}
+
+.ct25-shell-body {
+  flex: 1 1 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.ct25-shell-desktop {
+  position: relative;
+  flex: 1 1 0;
+  min-height: 0;
+  background-color: #004e98;
+  padding: 20px 16px 44px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.ct25-wallpaper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.ct25-desktop-foreground {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.ct25-xp-window {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.45);
+  pointer-events: auto;
+}
+
+.ct25-xp-window .title-bar {
+  min-height: var(--ct25-titlebar-min-height);
+  box-sizing: border-box;
+  padding-top: var(--ct25-titlebar-padding-y);
+  padding-bottom: var(--ct25-titlebar-padding-y);
+  display: flex;
+  align-items: center;
+}
+
+.ct25-xp-window .title-bar-text {
+  line-height: 1.2;
+}
+
+.ct25-xp-window--points {
+  position: absolute;
+  bottom: var(--ct25-points-bottom);
+  left: 50%;
+  transform: translateX(calc(-50% - var(--ct25-points-center-nudge)));
+  width: var(--ct25-points-img-w);
+  max-width: calc(100% - 2rem);
+  max-height: calc(100% - var(--ct25-points-bottom) - 2rem);
+}
+
+.ct25-xp-window--players {
+  position: absolute;
+  top: var(--ct25-players-top);
+  right: var(--ct25-players-right);
+  bottom: auto;
+  width: min(var(--ct25-players-img-w), calc(100vw - 2rem));
+  max-height: calc(100% - var(--ct25-players-top) - 2rem);
+}
+
+.ct25-window-body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: auto;
+  flex: 1;
+  min-height: 0;
+}
+
+.ct25-window-body--points {
+  flex: 0 0 auto;
+}
+
+.ct25-window-body--players {
+  flex: 0 0 auto;
+}
+
+.ct25-points-screenshot {
+  display: block;
+  /* width: var(--ct25-points-img-w); */
+  max-width: 100%;
+  height: auto;
+}
+
+.ct25-player-list-screenshot {
+  display: block;
+  width: var(--ct25-players-img-w);
+  max-width: 100%;
+  height: auto;
+}
+
+.ct25-taskbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 150;
+  background: linear-gradient(
+    180deg,
+    #0997ff,
+    #0053ee 8%,
+    #0050ee 40%,
+    #06f 88%,
+    #06f 93%,
+    #005bff 95%,
+    #003dd7 96%,
+    #003dd7
+  );
+  height: 30px;
+  display: flex;
+  align-items: stretch;
+}
+
+.ct25-taskbar__start {
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-style: italic;
+  border: none;
+  border-radius: 0 10px 12px 0;
+  box-shadow: 0 5px 10px #79ce71 inset;
+  background: radial-gradient(circle, #5eac56 0%, #3c873c 100%) center / cover
+    no-repeat !important;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 10px 0 6px;
+  cursor: default;
+}
+
+.ct25-taskbar__start--logo {
+  width: auto;
+  height: 80%;
+  pointer-events: none;
+}
+
+/* Narrow screens: stack windows vertically (scroll the desktop area) */
+@media (max-width: 768px) {
+  .ct25-shell-root {
+    --ct25-points-img-w: 351px !important;
+  }
+  .ct25-shell-desktop {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 12px 12px 44px;
+  }
+
+  .ct25-desktop-foreground {
+    position: relative;
+    inset: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 0.25rem 0 0;
+    box-sizing: border-box;
+  }
+
+  .ct25-xp-window--points,
+  .ct25-xp-window--players {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+    max-width: min(var(--ct25-players-img-w), 100%);
+    max-height: none;
+  }
+
+}

@@ -1,0 +1,279 @@
+/* MAIN DIV  */
+.country-content {
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+/* TWO SIDES FOR COUNTRIES */
+.c1-cont,
+.c2-cont {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.c1-cont{grid-area:a ;}
+.c2-cont{grid-area: b;}
+/* ACTUAL COUNTRY DIV */
+.country-1 {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    padding-right: 1rem;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.country-2 {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    padding-left: 1rem;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.country-1 {
+    grid-column: 2 / 4;
+    grid-row: 1 / span 3;
+}
+
+.country-2 {
+    grid-column: 1 / 3;
+    grid-row: 1 / span 3;
+}
+
+/* USED FOR CENTERING THE .country-list */
+.country-centering1 {
+    margin: 15px 0;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.country-centering2 {
+    margin: 15px 0;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.country-centering1 * {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: end;
+    list-style-type: none;
+}
+
+.country-centering2 * {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    list-style-type: none;
+}
+
+.country-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+    border-style: dotted;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 14px;
+    /* color: transparent; */
+    padding: 4px 16px;
+    cursor: pointer;
+    outline: none;
+    aspect-ratio: 1;
+    min-height: 130px;
+    max-height: 130px;
+    object-fit: contain;
+    object-position: center;
+    /* width: 100%; */
+}
+/* Transparent background for specific team values */
+.country-select.CSK,
+.country-select.MI,
+.country-select.RCB,
+.country-select.KKR,
+.country-select.RR,
+.country-select.GT,
+.country-select.LSG,
+.country-select.PBKS,
+.country-select.SRH,
+.country-select.DC {
+    color: transparent;
+    background-color: transparent;
+    border-style: none;
+}
+
+.country-select>option {
+    color: #222222;
+}
+@media (max-width: 400px) {
+    .country-select {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;        
+        padding: 0px 0px;
+        outline: none;
+        aspect-ratio: 1;
+        min-height: 50px;
+        max-height: 50px;
+    }
+    .country-content *{
+        font-size: 0.7rem;
+    }
+
+}
+
+/* BACKGROUND IMAGES */
+.c2-cont.CSK,
+.c1-cont.CSK {
+    background-image: url('../../assets/teams/CSK.avif');
+}
+
+.c2-cont.MI,
+.c1-cont.MI {
+    background-image: url('../../assets/teams/MI.jpg');
+}
+
+.c2-cont.RCB,
+.c1-cont.RCB {
+    background-image: url('../../assets/teams/RCB.jpg');
+}
+
+.c2-cont.KKR,
+.c1-cont.KKR {
+    background-image: url('../../assets/teams/KKR.avif');
+}
+
+.c2-cont.RR,
+.c1-cont.RR {
+    background-image: url('../../assets/teams/RR.webp');
+}
+
+.c2-cont.GT,
+.c1-cont.GT {
+    background-image: url('../../assets/teams/GT.jpg');
+}
+
+.c2-cont.LSG,
+.c1-cont.LSG {
+    background-image: url('../../assets/teams/LSG.jpg');
+
+}
+
+.c2-cont.PBKS,
+.c1-cont.PBKS {
+    background-image: url('../../assets/teams/PBKS.avif');
+}
+
+.c2-cont.SRH,
+.c1-cont.SRH {
+    background-image: url('../../assets/teams/SRH.jpeg');
+}
+
+.c2-cont.DC,
+.c1-cont.DC {
+    background-image: url('../../assets/teams/DC.avif');
+}
+
+/* backdrop color */
+.country-1.CSK {
+    background: linear-gradient(to left, var(--csk-primary) 0%, var(--csk-grad) 80%, #00000000 100%);
+}
+
+.country-1.MI {
+    background: linear-gradient(to left, var(--mi-primary) 0%, var(--mi-grad) 80%, #00000000 100%);
+}
+
+.country-1.RCB {
+    background: linear-gradient(to left, var(--rcb-primary) 0%, var(--rcb-grad) 80%, #00000000 100%);
+}
+
+.country-1.KKR {
+    background: linear-gradient(to left, var(--kkr-primary) 0%, var(--kkr-grad) 80%, #00000000 100%);
+}
+
+.country-1.RR {
+    background: linear-gradient(to left, var(--rr-primary) 0%, var(--rr-grad) 80%, #00000000 100%);
+}
+
+.country-1.GT {
+    background: linear-gradient(to left, var(--gt-primary) 0%, var(--gt-grad) 80%, #00000000 100%);
+}
+
+.country-1.LSG {
+    background: linear-gradient(to left, var(--lsg-primary) 0%, var(--lsg-grad) 80%, #00000000 100%);
+}
+
+.country-1.PBKS {
+    background: linear-gradient(to left, var(--pbks-primary) 0%, var(--pbks-grad) 80%, #00000000 100%);
+}
+
+.country-1.SRH {
+    background: linear-gradient(to left, var(--srh-primary) 0%, var(--srh-grad) 80%, #00000000 100%);
+}
+
+.country-1.DC {
+    background: linear-gradient(to left, var(--dc-primary) 0%, var(--dc-grad) 80%, #00000000 100%);
+}
+
+
+.country-2.CSK {
+    background: linear-gradient(to right, var(--csk-primary) 0%, var(--csk-grad) 80%, #00000000 100%);
+}
+
+.country-2.MI {
+    background: linear-gradient(to right, var(--mi-primary) 0%, var(--mi-grad) 80%, #00000000 100%);
+}
+
+.country-2.RCB {
+    background: linear-gradient(to right, var(--rcb-primary) 0%, var(--rcb-grad) 80%, #00000000 100%);
+}
+
+.country-2.KKR {
+    background: linear-gradient(to right, var(--kkr-primary) 0%, var(--kkr-grad) 80%, #00000000 100%);
+}
+
+.country-2.RR {
+    background: linear-gradient(to right, var(--rr-primary) 0%, var(--rr-grad) 80%, #00000000 100%);
+}
+
+.country-2.GT {
+    background: linear-gradient(to right, var(--gt-primary) 0%, var(--gt-grad) 80%, #00000000 100%);
+}
+
+.country-2.LSG {
+    background: linear-gradient(to right, var(--lsg-primary) 0%, var(--lsg-grad) 80%, #00000000 100%);
+}
+
+.country-2.PBKS {
+    background: linear-gradient(to right, var(--pbks-primary) 0%, var(--pbks-grad) 80%, #00000000 100%);
+}
+
+.country-2.SRH {
+    background: linear-gradient(to right, var(--srh-primary) 0%, var(--srh-grad) 80%, #00000000 100%);
+}
+
+.country-2.DC {
+    background: linear-gradient(to right, var(--dc-primary) 0%, var(--dc-grad) 80%, #00000000 100%);
+}

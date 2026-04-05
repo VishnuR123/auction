@@ -1,0 +1,88 @@
+.past-res-main{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+align-items: center;
+justify-items: center;
+    padding: 20px;
+    height: 100vh;
+    gap: 20px;
+}
+
+.ipl-24, .ipl-23, .wc-23, .total-results{
+    width: fit-content;
+    padding: 20px 40px;
+    /* height: 60vh; */
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    flex-direction: column;
+
+}
+.ipl-23:hover{
+    background-image: url('../../assets/past-results/ipl23.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.wc-23:hover{
+    background-image: url('../../assets/past-results/wc-23.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.ipl-24:hover{
+    background-image: url('../../assets/past-results/ipl24.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.past-res-main table *{
+    padding: 3px;    
+    min-width: 80px;
+}
+.past-res-main table tr> td:nth-child(1){
+    text-align: left;
+}
+.past-res-main table tr > td:nth-child(2){
+    text-align: right;
+}
+.past-res-main table tr> th:nth-child(1){
+    text-align: left;
+}
+.past-res-main table tr > th:nth-child(2){
+    text-align: right;
+}
+
+.total-results > h2{
+    text-align:center;
+}
+
+.wc-23 table tr:nth-child(2) > td:nth-child(1) {
+    text-decoration: line-through;
+    color: red;
+    
+}
+
+.wc-23 table tr:nth-child(2) > td:nth-child(2) {
+    text-decoration: line-through;
+    color: red;
+}
+
+/* .ipl-24, .ipl-23, .wc-23 > table > tbody > tr> td:nth-child(1){
+    background-color: ;
+} */
+
+@media (max-width: 400px) {
+    .past-res-main{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(4,1fr);
+        align-items: baseline;
+    }
+}

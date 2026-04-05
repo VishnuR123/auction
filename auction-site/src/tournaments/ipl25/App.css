@@ -1,0 +1,262 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  background: #e1eaf1 !important;
+}
+
+.App {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR CSS */
+.avatar {
+  width: 200px;
+  margin-top: 40px;
+}
+
+.nav-title {
+  margin: 10px 0px 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.26ch;
+  text-align: center;
+}
+
+.menu-button {
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  z-index: 50;
+}
+
+.sidebar {
+  font-family: "Inter", sans-serif;
+  width: 250px;
+  background: #10044a;
+  color: white;
+  /* color: #10044a !important; */
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+  padding: 10px 20px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  box-shadow: 7px 0px 15px -4px rgba(0, 0, 0, 0.75);
+  z-index: 7;
+  min-height: 100vh;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.sidebar nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+.custom-link {
+  padding-top: 1px;
+  font-weight: 200;
+  letter-spacing: 0.11ch;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+/* MAIN PAGE AREA */
+.content {
+  flex-grow: 1;
+  /* padding: 20px; */
+  margin-left: 250px;
+  transition: margin-left 0.3s;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Tournament switcher sits in the content column only (desktop: right of fixed sidebar). */
+.ipl25-archive-toolbar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 16px;
+  background: #0f172a;
+  border-bottom: 1px solid #1e293b;
+}
+
+.ipl25-page-body {
+  flex: 1;
+  min-height: 0;
+}
+
+@media (max-width: 768px) {
+  .menu-button {
+    display: block;
+  }
+
+  .sidebar {
+    left: -250px;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #aaaaaa;
+
+}
+
+::-webkit-scrollbar-track {
+  background: #d8d6d6;
+}
+
+/* COLORS */
+:root {
+  --csk-primary: #FEEA10;
+  --csk-grad: #FEEA1065;
+  --csk-secondary: #17449B;
+
+  --mi-primary: #045093;
+  --mi-grad: #04509365;
+  --mi-secondary: #FFD200;
+
+  --rcb-primary: #DA1818;
+  --rcb-grad: #DA181865;
+  --rcb-secondary: #000000;
+
+  --kkr-primary: #3A225D;
+  --kkr-grad: #3A225D65;
+  --kkr-secondary: #D1AF4C;
+
+  --rr-primary: #EA1A8E;
+  --rr-grad: #EA1A8E65;
+  --rr-secondary: #17449B;
+
+  --gt-primary: #1C1C1C;
+  --gt-grad: #1C1C1C65;
+  --gt-secondary: #E2B53E;
+
+  --lsg-primary: #1C8B8B;
+  --lsg-grad: #1C8B8B65;
+  --lsg-secondary: #F3A712;
+
+  --pbks-primary: #D71920;
+  --pbks-grad: #D7192065;
+  --pbks-secondary: #A5ACAF;
+
+  --srh-primary: #F47920;
+  --srh-grad: #F4792065;
+  --srh-secondary: #000000;
+
+  --dc-primary: #17449B;
+  --dc-grad: #17449B65;
+  --dc-secondary: #E82128;
+}
+
+.pred-main {
+  padding: 20px 60px;
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pred-main h2 {
+  text-align: center;
+  font-weight: 400;
+  /* font-size: larger; */
+}
+
+.pred-table img {
+  /* aspect-ratio: 1; */
+  width: 200px;
+}
+
+.pred-table {
+  padding: 30px;
+  /* border-color: #000000 !important;
+  border-width: 1px;
+  border-style: solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+}
+.pred-table table tr {
+  border-collapse: collapse; /* Ensures rows are properly rendered */
+}
+.pred-table td {
+  padding: 30px;
+border-color: #444444 !important;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.pred-table td:first-child {
+  text-align: center;
+}
+
+.pred-table td:last-child {
+  text-align: justify;
+}
+
+.pred-table ul>li {
+  list-style-type: decimal;
+}
+
+@media (max-width: 400px) {
+  .pred-main{
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .pred-table *{
+    font-size: 0.7rem;
+  }
+  .pred-table {
+    width: 90dvw;
+  }
+  .pred-table td {
+padding: 10px;
+  }
+  .pred-table td:last-child {
+    text-align: left;
+  }
+}

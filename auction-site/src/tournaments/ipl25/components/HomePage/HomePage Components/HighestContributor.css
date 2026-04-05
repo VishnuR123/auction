@@ -1,0 +1,79 @@
+.points{
+    background-color: white;
+    border-radius: 0.5rem;
+    padding:5px 10px;
+    color: var(--vampireblack);
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    margin-top: 7px;
+}
+.highest-contributor-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.contributing-players-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.899);
+  color: var(--vampireblack);
+  border-radius: 0.3rem;
+  /* overflow: scroll; */
+  display: flex;
+  flex-direction: column;
+}
+
+.contributor-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  font-size: 1rem;
+  /* color: white; */
+  font-weight: 700;
+  font-size: 0.9rem;
+
+}
+
+.highest-contributor-item {
+  display: none;
+}
+
+.player-name {
+  flex: 1;
+}
+
+.player-points {
+  font-weight: bold;
+  /* color: #555; */
+  /* color: white; */
+}
+.flag-tag{
+    position: absolute;
+    top: 10px;
+    width:5rem;
+    aspect-ratio: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block; 
+    border: none !important;
+    outline: none !important;
+    border-style: none !important;
+    border-width: 0px !important;
+    border-color: transparent !important;
+    background-color: transparent ;
+}
+
+.CSK{background-image: url('../../../assets/flags/CSK.svg'); color: #fff; border: none !important; }
+.MI{background-image: url('../../../assets/flags/MI.svg'); color: #fff; border: none !important;}
+.RCB{background-image: url('../../../assets/flags/RCB.svg'); color: #fff; border: none !important;}
+.KKR{background-image: url('../../../assets/flags/KKR.svg'); color: #fff; border: none !important;}
+.RR{background-image: url('../../../assets/flags/RR.svg'); color: #fff; border: none !important;}
+.GT{background-image: url('../../../assets/flags/GT.svg'); color: #fff; border: none !important;}
+.LSG{background-image: url('../../../assets/flags/LSG.svg'); color: #fff; border: none !important;}
+.PBKS{background-image: url('../../../assets/flags/PBKS.svg'); color: #fff; border: none !important;}
+.SRH{background-image: url('../../../assets/flags/SRH.svg'); color: #fff; border: none !important;}
+.DC{background-image: url('../../../assets/flags/DC.svg'); color: #fff; border: none !important;}

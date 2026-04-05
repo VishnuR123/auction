@@ -1,0 +1,167 @@
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: #141414;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Sidebar app title (Tailwind is not used — layout must be plain CSS) */
+.admin-sider-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 16px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(
+    160deg,
+    rgba(22, 119, 255, 0.18) 0%,
+    rgba(0, 0, 0, 0) 55%
+  );
+}
+
+.admin-sider-brand__mark {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 20px;
+  color: #fff;
+  background: linear-gradient(145deg, #1677ff 0%, #0958d9 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.admin-sider-brand__text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.admin-sider-brand__title {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.96);
+  line-height: 1.3;
+}
+
+.admin-sider-brand__subtitle {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.42);
+}
+
+/* Info alerts above toolbars — explicit margin (utility classes are not Tailwind) */
+.admin-page-alert.ant-alert {
+  margin-bottom: 22px;
+}
+
+/* Admin data pages: breathing room between controls */
+.admin-page-toolbar {
+  margin-bottom: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+
+/* Second toolbar row under the first (e.g. filters) */
+.admin-page-toolbar--tight-top {
+  margin-top: 4px;
+}
+
+.admin-form-spaced.ant-form .ant-form-item {
+  margin-bottom: 22px;
+}
+
+.admin-form-spaced.ant-form .ant-form-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Tournaments modal: gap below validation text before the next control */
+.tournaments-page-form.ant-form .ant-form-item-explain-error {
+  margin-bottom: 8px;
+}
+
+/* Update match: vertical rhythm */
+.update-match-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 100%;
+}
+
+.update-match-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.update-match-ipl-card {
+  max-width: 720px;
+}
+
+.update-match-ipl-card .ant-card-head-title {
+  font-size: 14px;
+}
+
+.update-match-date-input {
+  min-width: 10.5rem;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #424242;
+  background: #141414;
+  color: #ffffffd9;
+  font: inherit;
+  line-height: 1.5;
+}
+
+.update-match-date-input:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.matchdays-modal-date-input {
+  max-width: 200px;
+  min-height: 32px;
+}
+
+/* Roster table: fill narrow panes (side-by-side browsers) without a wide min-width scroll */
+.update-match-roster-table {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.update-match-roster-table .ant-table-wrapper,
+.update-match-roster-table .ant-spin-nested-loading,
+.update-match-roster-table .ant-table,
+.update-match-roster-table .ant-table-container {
+  max-width: 100%;
+}
+
+.update-match-roster-table .ant-table table {
+  width: 100% !important;
+}
+
+.update-match-roster-table .update-match-base-input {
+  width: 100%;
+  max-width: 100%;
+}
+
+.update-match-roster-table .update-match-base-input .ant-input-number-input-wrap {
+  width: 100% !important;
+}

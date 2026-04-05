@@ -1,0 +1,5285 @@
+{
+  "players": [
+    {
+      "name": "Kusal Mendis",
+      "owner": "Sakthi",
+      "role": "BAT",
+      "country": "SL",
+      "totalPoints": 136,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 22
+        },
+        {
+          "matchNumber": 15,
+          "points": 16
+        },
+        {
+          "matchNumber": 38,
+          "points": 98
+        },
+        {
+          "matchNumber": 100,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Shaheen Shah Afridi",
+      "owner": "Sakthi",
+      "role": "BOWL",
+      "country": "PAK",
+      "totalPoints": 222,
+      "points": [
+        {
+          "matchNumber": 11,
+          "points": 32
+        },
+        {
+          "matchNumber": 19,
+          "points": 29
+        },
+        {
+          "matchNumber": 22,
+          "points": 33
+        },
+        {
+          "matchNumber": 36,
+          "points": 128
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Philip Salt",
+      "owner": "Sathish",
+      "role": "BAT",
+      "country": "ENG",
+      "totalPoints": 318,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": 4
+        },
+        {
+          "matchNumber": 17,
+          "points": 65
+        },
+        {
+          "matchNumber": 28,
+          "points": 28
+        },
+        {
+          "matchNumber": 34,
+          "points": 17
+        },
+        {
+          "matchNumber": 42,
+          "points": 130
+        },
+        {
+          "matchNumber": 45,
+          "points": 18
+        },
+        {
+          "matchNumber": 49,
+          "points": 39
+        },
+        {
+          "matchNumber": 54,
+          "points": 17
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Will Jacks",
+      "owner": "Sakthi",
+      "role": "BAT",
+      "country": "ENG",
+      "totalPoints": 37,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": 4
+        },
+        {
+          "matchNumber": 17,
+          "points": 15
+        },
+        {
+          "matchNumber": 28,
+          "points": 18
+        },
+        {
+          "matchNumber": 34,
+          "points": 0
+        },
+        {
+          "matchNumber": 42,
+          "points": 0
+        },
+        {
+          "matchNumber": 45,
+          "points": 0
+        },
+        {
+          "matchNumber": 49,
+          "points": 0
+        },
+        {
+          "matchNumber": 54,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Taskin Ahmed",
+      "owner": "Sakthi",
+      "role": "BOWL",
+      "country": "BAN",
+      "totalPoints": 313,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 0
+        },
+        {
+          "matchNumber": 15,
+          "points": 64
+        },
+        {
+          "matchNumber": 21,
+          "points": 77
+        },
+        {
+          "matchNumber": 27,
+          "points": 62
+        },
+        {
+          "matchNumber": 37,
+          "points": 43
+        },
+        {
+          "matchNumber": 44,
+          "points": 18
+        },
+        {
+          "matchNumber": 47,
+          "points": 0
+        },
+        {
+          "matchNumber": 52,
+          "points": 49
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mustafizur Rehman",
+      "owner": "Sakthi",
+      "role": "BOWL",
+      "country": "BAN",
+      "totalPoints": 281,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 0
+        },
+        {
+          "matchNumber": 15,
+          "points": 97
+        },
+        {
+          "matchNumber": 21,
+          "points": 10
+        },
+        {
+          "matchNumber": 27,
+          "points": 35
+        },
+        {
+          "matchNumber": 37,
+          "points": 104
+        },
+        {
+          "matchNumber": 44,
+          "points": 0
+        },
+        {
+          "matchNumber": 47,
+          "points": 0
+        },
+        {
+          "matchNumber": 52,
+          "points": 35
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Ibrahim Zadran",
+      "owner": "Sakthi",
+      "role": "BAT",
+      "country": "AFG",
+      "totalPoints": 338,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 97
+        },
+        {
+          "matchNumber": 14,
+          "points": 67
+        },
+        {
+          "matchNumber": 29,
+          "points": 2
+        },
+        {
+          "matchNumber": 40,
+          "points": 55
+        },
+        {
+          "matchNumber": 43,
+          "points": 13
+        },
+        {
+          "matchNumber": 48,
+          "points": 69
+        },
+        {
+          "matchNumber": 52,
+          "points": 29
+        },
+        {
+          "matchNumber": 53,
+          "points": 6
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Tristan Stubbs",
+      "owner": "Sathish",
+      "role": "BAT",
+      "country": "SA",
+      "totalPoints": 280,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 19
+        },
+        {
+          "matchNumber": 16,
+          "points": 44
+        },
+        {
+          "matchNumber": 21,
+          "points": 2
+        },
+        {
+          "matchNumber": 31,
+          "points": 37
+        },
+        {
+          "matchNumber": 41,
+          "points": 42
+        },
+        {
+          "matchNumber": 45,
+          "points": 25
+        },
+        {
+          "matchNumber": 50,
+          "points": 53
+        },
+        {
+          "matchNumber": 53,
+          "points": 12
+        },
+        {
+          "matchNumber": 55,
+          "points": 46
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Najmul Hossain Shanto",
+      "owner": "Sanjay",
+      "role": "BAT",
+      "country": "BAN",
+      "totalPoints": 191,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 0
+        },
+        {
+          "matchNumber": 15,
+          "points": 15
+        },
+        {
+          "matchNumber": 21,
+          "points": 18
+        },
+        {
+          "matchNumber": 27,
+          "points": 5
+        },
+        {
+          "matchNumber": 37,
+          "points": 24
+        },
+        {
+          "matchNumber": 44,
+          "points": 56
+        },
+        {
+          "matchNumber": 47,
+          "points": 55
+        },
+        {
+          "matchNumber": 52,
+          "points": 18
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Alzaari Joseph",
+      "owner": "Saran",
+      "role": "BOWL",
+      "country": "WI",
+      "totalPoints": 439,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 74
+        },
+        {
+          "matchNumber": 18,
+          "points": 76
+        },
+        {
+          "matchNumber": 26,
+          "points": 133
+        },
+        {
+          "matchNumber": 40,
+          "points": 27
+        },
+        {
+          "matchNumber": 42,
+          "points": -2
+        },
+        {
+          "matchNumber": 46,
+          "points": 54
+        },
+        {
+          "matchNumber": 50,
+          "points": 77
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mohammed Nabi ",
+      "owner": "Sakthi",
+      "role": "AR",
+      "country": "AFG",
+      "totalPoints": 224,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 18
+        },
+        {
+          "matchNumber": 14,
+          "points": 66
+        },
+        {
+          "matchNumber": 29,
+          "points": 19
+        },
+        {
+          "matchNumber": 40,
+          "points": 5
+        },
+        {
+          "matchNumber": 43,
+          "points": 36
+        },
+        {
+          "matchNumber": 48,
+          "points": 57
+        },
+        {
+          "matchNumber": 52,
+          "points": 21
+        },
+        {
+          "matchNumber": 53,
+          "points": 2
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Moeen Ali",
+      "owner": "Sathish",
+      "role": "AR",
+      "country": "ENG",
+      "totalPoints": 220,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": 4
+        },
+        {
+          "matchNumber": 17,
+          "points": 72
+        },
+        {
+          "matchNumber": 28,
+          "points": 12
+        },
+        {
+          "matchNumber": 34,
+          "points": 24
+        },
+        {
+          "matchNumber": 42,
+          "points": 46
+        },
+        {
+          "matchNumber": 45,
+          "points": 38
+        },
+        {
+          "matchNumber": 49,
+          "points": 12
+        },
+        {
+          "matchNumber": 54,
+          "points": 12
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Maheesh Theekshana",
+      "owner": "Sathish",
+      "role": "BOWL",
+      "country": "SL",
+      "totalPoints": 63,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 12
+        },
+        {
+          "matchNumber": 15,
+          "points": 14
+        },
+        {
+          "matchNumber": 38,
+          "points": 37
+        },
+        {
+          "matchNumber": 100,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mohammad Rizwan",
+      "owner": "Saran",
+      "role": "BAT",
+      "country": "PAK",
+      "totalPoints": 253.75,
+      "points": [
+        {
+          "matchNumber": 11,
+          "points": 38.75
+        },
+        {
+          "matchNumber": 19,
+          "points": 60
+        },
+        {
+          "matchNumber": 22,
+          "points": 106.25
+        },
+        {
+          "matchNumber": 36,
+          "points": 48.75
+        }
+      ],
+      "captainStatus": "vice-captain"
+    },
+    {
+      "name": "Corey Anderson",
+      "owner": "Sathish",
+      "role": "AR",
+      "country": "USA",
+      "totalPoints": 136,
+      "points": [
+        {
+          "matchNumber": 1,
+          "points": 40
+        },
+        {
+          "matchNumber": 11,
+          "points": 4
+        },
+        {
+          "matchNumber": 25,
+          "points": 26
+        },
+        {
+          "matchNumber": 41,
+          "points": 26
+        },
+        {
+          "matchNumber": 46,
+          "points": 5
+        },
+        {
+          "matchNumber": 49,
+          "points": 35
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Heinrich Klaasen",
+      "owner": "Sanjay",
+      "role": "BAT",
+      "country": "SA",
+      "totalPoints": 345,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 34
+        },
+        {
+          "matchNumber": 16,
+          "points": 16
+        },
+        {
+          "matchNumber": 21,
+          "points": 62
+        },
+        {
+          "matchNumber": 31,
+          "points": 13
+        },
+        {
+          "matchNumber": 41,
+          "points": 62
+        },
+        {
+          "matchNumber": 45,
+          "points": 19
+        },
+        {
+          "matchNumber": 50,
+          "points": 37
+        },
+        {
+          "matchNumber": 53,
+          "points": 4
+        },
+        {
+          "matchNumber": 55,
+          "points": 98
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Glenn Philips",
+      "owner": "Sanjay",
+      "role": "AR",
+      "country": "NZ",
+      "totalPoints": 111,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 32
+        },
+        {
+          "matchNumber": 26,
+          "points": 55
+        },
+        {
+          "matchNumber": 32,
+          "points": 12
+        },
+        {
+          "matchNumber": 39,
+          "points": 12
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Glenn Maxwell",
+      "owner": "Saran",
+      "role": "AR",
+      "country": "AUS",
+      "totalPoints": 337,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 14
+        },
+        {
+          "matchNumber": 17,
+          "points": 43
+        },
+        {
+          "matchNumber": 24,
+          "points": 40
+        },
+        {
+          "matchNumber": 35,
+          "points": 65
+        },
+        {
+          "matchNumber": 44,
+          "points": 48
+        },
+        {
+          "matchNumber": 48,
+          "points": 95
+        },
+        {
+          "matchNumber": 51,
+          "points": 32
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Harry Brook",
+      "owner": "Shashwat",
+      "role": "BAT",
+      "country": "ENG",
+      "totalPoints": 275,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": 4
+        },
+        {
+          "matchNumber": 17,
+          "points": 34
+        },
+        {
+          "matchNumber": 28,
+          "points": 4
+        },
+        {
+          "matchNumber": 34,
+          "points": 85
+        },
+        {
+          "matchNumber": 42,
+          "points": 12
+        },
+        {
+          "matchNumber": 45,
+          "points": 90
+        },
+        {
+          "matchNumber": 49,
+          "points": 12
+        },
+        {
+          "matchNumber": 54,
+          "points": 34
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Trent Boult",
+      "owner": "Sathish",
+      "role": "BOWL",
+      "country": "NZ",
+      "totalPoints": 357,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 75
+        },
+        {
+          "matchNumber": 26,
+          "points": 126
+        },
+        {
+          "matchNumber": 32,
+          "points": 88
+        },
+        {
+          "matchNumber": 39,
+          "points": 68
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Romario Shepard",
+      "owner": "Sathish",
+      "role": "AR",
+      "country": "WI",
+      "totalPoints": 88,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 29
+        },
+        {
+          "matchNumber": 18,
+          "points": 40
+        },
+        {
+          "matchNumber": 26,
+          "points": 15
+        },
+        {
+          "matchNumber": 40,
+          "points": 0
+        },
+        {
+          "matchNumber": 42,
+          "points": 4
+        },
+        {
+          "matchNumber": 46,
+          "points": 0
+        },
+        {
+          "matchNumber": 50,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Dunith Wellalage",
+      "owner": "Sathish",
+      "role": "BOWL",
+      "country": "SL",
+      "totalPoints": 0,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 0
+        },
+        {
+          "matchNumber": 15,
+          "points": 0
+        },
+        {
+          "matchNumber": 38,
+          "points": 0
+        },
+        {
+          "matchNumber": 100,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Lockie Ferguson",
+      "owner": "Saran",
+      "role": "BOWL",
+      "country": "NZ",
+      "totalPoints": 309,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 41
+        },
+        {
+          "matchNumber": 26,
+          "points": 72
+        },
+        {
+          "matchNumber": 32,
+          "points": 43
+        },
+        {
+          "matchNumber": 39,
+          "points": 153
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Sam Curran",
+      "owner": "Sanjay",
+      "role": "AR",
+      "country": "ENG",
+      "totalPoints": 116,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": 0
+        },
+        {
+          "matchNumber": 17,
+          "points": 0
+        },
+        {
+          "matchNumber": 28,
+          "points": 0
+        },
+        {
+          "matchNumber": 34,
+          "points": 6
+        },
+        {
+          "matchNumber": 42,
+          "points": 4
+        },
+        {
+          "matchNumber": 45,
+          "points": 23
+        },
+        {
+          "matchNumber": 49,
+          "points": 50
+        },
+        {
+          "matchNumber": 54,
+          "points": 33
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mahmudullah",
+      "owner": "Sanjay",
+      "role": "AR",
+      "country": "BAN",
+      "totalPoints": 172,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 0
+        },
+        {
+          "matchNumber": 15,
+          "points": 22
+        },
+        {
+          "matchNumber": 21,
+          "points": 30
+        },
+        {
+          "matchNumber": 27,
+          "points": 60
+        },
+        {
+          "matchNumber": 37,
+          "points": 19
+        },
+        {
+          "matchNumber": 44,
+          "points": 6
+        },
+        {
+          "matchNumber": 47,
+          "points": 24
+        },
+        {
+          "matchNumber": 52,
+          "points": 11
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Yashasvi Jaiswal",
+      "owner": "Saran",
+      "role": "BAT",
+      "country": "IND",
+      "totalPoints": 0,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 0
+        },
+        {
+          "matchNumber": 19,
+          "points": 0
+        },
+        {
+          "matchNumber": 25,
+          "points": 0
+        },
+        {
+          "matchNumber": 43,
+          "points": 0
+        },
+        {
+          "matchNumber": 47,
+          "points": 0
+        },
+        {
+          "matchNumber": 51,
+          "points": 0
+        },
+        {
+          "matchNumber": 54,
+          "points": 0
+        },
+        {
+          "matchNumber": 55,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Azam Khan",
+      "owner": "Saran",
+      "role": "BAT",
+      "country": "PAK",
+      "totalPoints": 2,
+      "points": [
+        {
+          "matchNumber": 11,
+          "points": 2
+        },
+        {
+          "matchNumber": 19,
+          "points": 0
+        },
+        {
+          "matchNumber": 22,
+          "points": 0
+        },
+        {
+          "matchNumber": 36,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Finn Allen",
+      "owner": "Sakthi",
+      "role": "BAT",
+      "country": "NZ",
+      "totalPoints": 71.25,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 2.5
+        },
+        {
+          "matchNumber": 26,
+          "points": 43.75
+        },
+        {
+          "matchNumber": 32,
+          "points": 12.5
+        },
+        {
+          "matchNumber": 39,
+          "points": 12.5
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Quinton de Kock",
+      "owner": "Sanjay",
+      "role": "BAT",
+      "country": "SA",
+      "totalPoints": 450,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 38
+        },
+        {
+          "matchNumber": 16,
+          "points": 10
+        },
+        {
+          "matchNumber": 21,
+          "points": 39
+        },
+        {
+          "matchNumber": 31,
+          "points": 29
+        },
+        {
+          "matchNumber": 41,
+          "points": 117
+        },
+        {
+          "matchNumber": 45,
+          "points": 95
+        },
+        {
+          "matchNumber": 50,
+          "points": 31
+        },
+        {
+          "matchNumber": 53,
+          "points": 18
+        },
+        {
+          "matchNumber": 55,
+          "points": 73
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Marcus Stoinis",
+      "owner": "Sanjay",
+      "role": "AR",
+      "country": "AUS",
+      "totalPoints": 557.5,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 180
+        },
+        {
+          "matchNumber": 17,
+          "points": 75
+        },
+        {
+          "matchNumber": 24,
+          "points": 60
+        },
+        {
+          "matchNumber": 35,
+          "points": 90
+        },
+        {
+          "matchNumber": 44,
+          "points": 41.25
+        },
+        {
+          "matchNumber": 48,
+          "points": 48.75
+        },
+        {
+          "matchNumber": 51,
+          "points": 62.5
+        }
+      ],
+      "captainStatus": "vice-captain"
+    },
+    {
+      "name": "Shimron Hetmyer",
+      "owner": "Sanjay",
+      "role": "BAT",
+      "country": "WI",
+      "totalPoints": 0,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 0
+        },
+        {
+          "matchNumber": 18,
+          "points": 0
+        },
+        {
+          "matchNumber": 26,
+          "points": 0
+        },
+        {
+          "matchNumber": 40,
+          "points": 0
+        },
+        {
+          "matchNumber": 42,
+          "points": 0
+        },
+        {
+          "matchNumber": 46,
+          "points": 0
+        },
+        {
+          "matchNumber": 50,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Scott Edwards",
+      "owner": "Sathish",
+      "role": "BAT",
+      "country": "NED",
+      "totalPoints": 116,
+      "points": [
+        {
+          "matchNumber": 7,
+          "points": 9
+        },
+        {
+          "matchNumber": 16,
+          "points": 24
+        },
+        {
+          "matchNumber": 27,
+          "points": 32
+        },
+        {
+          "matchNumber": 38,
+          "points": 51
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Rashid Khan",
+      "owner": "Sathish",
+      "role": "AR",
+      "country": "AFG",
+      "totalPoints": 606,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 78
+        },
+        {
+          "matchNumber": 14,
+          "points": 157
+        },
+        {
+          "matchNumber": 29,
+          "points": 32
+        },
+        {
+          "matchNumber": 40,
+          "points": 22
+        },
+        {
+          "matchNumber": 43,
+          "points": 111
+        },
+        {
+          "matchNumber": 48,
+          "points": 35
+        },
+        {
+          "matchNumber": 52,
+          "points": 157
+        },
+        {
+          "matchNumber": 53,
+          "points": 14
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Shadab Khan",
+      "owner": "Sathish",
+      "role": "AR",
+      "country": "PAK",
+      "totalPoints": 121.5,
+      "points": [
+        {
+          "matchNumber": 11,
+          "points": 88.5
+        },
+        {
+          "matchNumber": 19,
+          "points": 12
+        },
+        {
+          "matchNumber": 22,
+          "points": 6
+        },
+        {
+          "matchNumber": 36,
+          "points": 15
+        }
+      ],
+      "captainStatus": "captain"
+    },
+    {
+      "name": "Josh Inglis",
+      "owner": "Saran",
+      "role": "BAT",
+      "country": "AUS",
+      "totalPoints": 0,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 0
+        },
+        {
+          "matchNumber": 17,
+          "points": 0
+        },
+        {
+          "matchNumber": 24,
+          "points": 0
+        },
+        {
+          "matchNumber": 35,
+          "points": 0
+        },
+        {
+          "matchNumber": 44,
+          "points": 0
+        },
+        {
+          "matchNumber": 48,
+          "points": 0
+        },
+        {
+          "matchNumber": 51,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Aiden Markram",
+      "owner": "Sakthi",
+      "role": "BAT",
+      "country": "SA",
+      "totalPoints": 360.5,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 26
+        },
+        {
+          "matchNumber": 16,
+          "points": 22
+        },
+        {
+          "matchNumber": 21,
+          "points": 45
+        },
+        {
+          "matchNumber": 31,
+          "points": 50
+        },
+        {
+          "matchNumber": 41,
+          "points": 77.5
+        },
+        {
+          "matchNumber": 45,
+          "points": 16.25
+        },
+        {
+          "matchNumber": 50,
+          "points": 73.75
+        },
+        {
+          "matchNumber": 53,
+          "points": 38.75
+        },
+        {
+          "matchNumber": 55,
+          "points": 11.25
+        }
+      ],
+      "captainStatus": "vice-captain"
+    },
+    {
+      "name": "Naseen Shah",
+      "owner": "Sathish",
+      "role": "BOWL",
+      "country": "PAK",
+      "totalPoints": 185,
+      "points": [
+        {
+          "matchNumber": 11,
+          "points": 31
+        },
+        {
+          "matchNumber": 19,
+          "points": 115
+        },
+        {
+          "matchNumber": 22,
+          "points": 39
+        },
+        {
+          "matchNumber": 36,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Suryakumar Yadav",
+      "owner": "Sanjay",
+      "role": "BAT",
+      "country": "IND",
+      "totalPoints": 356,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 6
+        },
+        {
+          "matchNumber": 19,
+          "points": 20
+        },
+        {
+          "matchNumber": 25,
+          "points": 68
+        },
+        {
+          "matchNumber": 43,
+          "points": 82
+        },
+        {
+          "matchNumber": 47,
+          "points": 20
+        },
+        {
+          "matchNumber": 51,
+          "points": 60
+        },
+        {
+          "matchNumber": 54,
+          "points": 77
+        },
+        {
+          "matchNumber": 55,
+          "points": 23
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Tim Southee",
+      "owner": "Saran",
+      "role": "BOWL",
+      "country": "NZ",
+      "totalPoints": 251,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 0
+        },
+        {
+          "matchNumber": 26,
+          "points": 58
+        },
+        {
+          "matchNumber": 32,
+          "points": 125
+        },
+        {
+          "matchNumber": 39,
+          "points": 68
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Michael Bracewell",
+      "owner": "Sanjay",
+      "role": "AR",
+      "country": "NZ",
+      "totalPoints": 2,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 2
+        },
+        {
+          "matchNumber": 26,
+          "points": 0
+        },
+        {
+          "matchNumber": 32,
+          "points": 0
+        },
+        {
+          "matchNumber": 39,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Sanju Samson",
+      "owner": "Saran",
+      "role": "BAT",
+      "country": "IND",
+      "totalPoints": 0,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 0
+        },
+        {
+          "matchNumber": 19,
+          "points": 0
+        },
+        {
+          "matchNumber": 25,
+          "points": 0
+        },
+        {
+          "matchNumber": 43,
+          "points": 0
+        },
+        {
+          "matchNumber": 47,
+          "points": 0
+        },
+        {
+          "matchNumber": 51,
+          "points": 0
+        },
+        {
+          "matchNumber": 54,
+          "points": 0
+        },
+        {
+          "matchNumber": 55,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "owner": "Sakthi",
+      "role": "BOWL",
+      "country": "IND",
+      "totalPoints": 541,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 88
+        },
+        {
+          "matchNumber": 19,
+          "points": 97
+        },
+        {
+          "matchNumber": 25,
+          "points": 6
+        },
+        {
+          "matchNumber": 43,
+          "points": 101
+        },
+        {
+          "matchNumber": 47,
+          "points": 60
+        },
+        {
+          "matchNumber": 51,
+          "points": 37
+        },
+        {
+          "matchNumber": 54,
+          "points": 76
+        },
+        {
+          "matchNumber": 55,
+          "points": 76
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Marco Jansen",
+      "owner": "Sanjay",
+      "role": "AR",
+      "country": "SA",
+      "totalPoints": 322,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 16
+        },
+        {
+          "matchNumber": 16,
+          "points": 85
+        },
+        {
+          "matchNumber": 21,
+          "points": 15
+        },
+        {
+          "matchNumber": 31,
+          "points": 19
+        },
+        {
+          "matchNumber": 41,
+          "points": 2
+        },
+        {
+          "matchNumber": 45,
+          "points": 2
+        },
+        {
+          "matchNumber": 50,
+          "points": 63
+        },
+        {
+          "matchNumber": 53,
+          "points": 95
+        },
+        {
+          "matchNumber": 55,
+          "points": 25
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Adam Zampa",
+      "owner": "Saran",
+      "role": "BOWL",
+      "country": "AUS",
+      "totalPoints": 455,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 64
+        },
+        {
+          "matchNumber": 17,
+          "points": 64
+        },
+        {
+          "matchNumber": 24,
+          "points": 134
+        },
+        {
+          "matchNumber": 35,
+          "points": 29
+        },
+        {
+          "matchNumber": 44,
+          "points": 88
+        },
+        {
+          "matchNumber": 48,
+          "points": 74
+        },
+        {
+          "matchNumber": 51,
+          "points": 2
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Pat Cummins",
+      "owner": "Shashwat",
+      "role": "AR",
+      "country": "AUS",
+      "totalPoints": 303,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 0
+        },
+        {
+          "matchNumber": 17,
+          "points": 66
+        },
+        {
+          "matchNumber": 24,
+          "points": 45
+        },
+        {
+          "matchNumber": 35,
+          "points": 0
+        },
+        {
+          "matchNumber": 44,
+          "points": 91
+        },
+        {
+          "matchNumber": 48,
+          "points": 88
+        },
+        {
+          "matchNumber": 51,
+          "points": 13
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Devon Conway",
+      "owner": "Shashwat",
+      "role": "BAT",
+      "country": "NZ",
+      "totalPoints": 208.75,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 23.75
+        },
+        {
+          "matchNumber": 26,
+          "points": 46.25
+        },
+        {
+          "matchNumber": 32,
+          "points": 60
+        },
+        {
+          "matchNumber": 39,
+          "points": 78.75
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Kagiso Rabada",
+      "owner": "Sakthi",
+      "role": "BOWL",
+      "country": "SA",
+      "totalPoints": 484,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 78
+        },
+        {
+          "matchNumber": 16,
+          "points": 6
+        },
+        {
+          "matchNumber": 21,
+          "points": 68
+        },
+        {
+          "matchNumber": 31,
+          "points": 4
+        },
+        {
+          "matchNumber": 41,
+          "points": 89
+        },
+        {
+          "matchNumber": 45,
+          "points": 54
+        },
+        {
+          "matchNumber": 50,
+          "points": 55
+        },
+        {
+          "matchNumber": 53,
+          "points": 88
+        },
+        {
+          "matchNumber": 55,
+          "points": 42
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Charith Asalanka",
+      "owner": "Sanjay",
+      "role": "BAT",
+      "country": "SL",
+      "totalPoints": 138,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 18
+        },
+        {
+          "matchNumber": 15,
+          "points": 33
+        },
+        {
+          "matchNumber": 38,
+          "points": 87
+        },
+        {
+          "matchNumber": 100,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Matthew Wade",
+      "owner": "Saran",
+      "role": "BAT",
+      "country": "AUS",
+      "totalPoints": 129,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 30
+        },
+        {
+          "matchNumber": 17,
+          "points": 42
+        },
+        {
+          "matchNumber": 24,
+          "points": 6
+        },
+        {
+          "matchNumber": 35,
+          "points": 12
+        },
+        {
+          "matchNumber": 44,
+          "points": 6
+        },
+        {
+          "matchNumber": 48,
+          "points": 13.5
+        },
+        {
+          "matchNumber": 51,
+          "points": 19.5
+        }
+      ],
+      "captainStatus": "captain"
+    },
+    {
+      "name": "Johnson Charles",
+      "owner": "Sakthi",
+      "role": "BAT",
+      "country": "WI",
+      "totalPoints": 240,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 2
+        },
+        {
+          "matchNumber": 18,
+          "points": 60
+        },
+        {
+          "matchNumber": 26,
+          "points": 2
+        },
+        {
+          "matchNumber": 40,
+          "points": 79
+        },
+        {
+          "matchNumber": 42,
+          "points": 60
+        },
+        {
+          "matchNumber": 46,
+          "points": 37
+        },
+        {
+          "matchNumber": 50,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Virat Kohli",
+      "owner": "Sathish",
+      "role": "BAT",
+      "country": "IND",
+      "totalPoints": 231,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 13
+        },
+        {
+          "matchNumber": 19,
+          "points": 9
+        },
+        {
+          "matchNumber": 25,
+          "points": 2
+        },
+        {
+          "matchNumber": 43,
+          "points": 30
+        },
+        {
+          "matchNumber": 47,
+          "points": 62
+        },
+        {
+          "matchNumber": 51,
+          "points": 2
+        },
+        {
+          "matchNumber": 54,
+          "points": 15
+        },
+        {
+          "matchNumber": 55,
+          "points": 98
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mitchell Starc",
+      "owner": "Sathish",
+      "role": "BOWL",
+      "country": "AUS",
+      "totalPoints": 251.25,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 80
+        },
+        {
+          "matchNumber": 17,
+          "points": 17.5
+        },
+        {
+          "matchNumber": 24,
+          "points": 0
+        },
+        {
+          "matchNumber": 35,
+          "points": 25
+        },
+        {
+          "matchNumber": 44,
+          "points": 51.25
+        },
+        {
+          "matchNumber": 48,
+          "points": 0
+        },
+        {
+          "matchNumber": 51,
+          "points": 77.5
+        }
+      ],
+      "captainStatus": "vice-captain"
+    },
+    {
+      "name": "Kane Williamson",
+      "owner": "Sanjay",
+      "role": "BAT",
+      "country": "NZ",
+      "totalPoints": 78.75,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 25
+        },
+        {
+          "matchNumber": 26,
+          "points": 6.25
+        },
+        {
+          "matchNumber": 32,
+          "points": 5
+        },
+        {
+          "matchNumber": 39,
+          "points": 42.5
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mujeeb Ur Rahman",
+      "owner": "Saran",
+      "role": "BOWL",
+      "country": "AFG",
+      "totalPoints": 33,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 33
+        },
+        {
+          "matchNumber": 14,
+          "points": 0
+        },
+        {
+          "matchNumber": 29,
+          "points": 0
+        },
+        {
+          "matchNumber": 40,
+          "points": 0
+        },
+        {
+          "matchNumber": 43,
+          "points": 0
+        },
+        {
+          "matchNumber": 48,
+          "points": 0
+        },
+        {
+          "matchNumber": 52,
+          "points": 0
+        },
+        {
+          "matchNumber": 53,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Nathan Ellis",
+      "owner": "Saran",
+      "role": "BOWL",
+      "country": "AUS",
+      "totalPoints": 156,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 64
+        },
+        {
+          "matchNumber": 17,
+          "points": 0
+        },
+        {
+          "matchNumber": 24,
+          "points": 55
+        },
+        {
+          "matchNumber": 35,
+          "points": 37
+        },
+        {
+          "matchNumber": 44,
+          "points": 0
+        },
+        {
+          "matchNumber": 48,
+          "points": 0
+        },
+        {
+          "matchNumber": 51,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Shivam Dube",
+      "owner": "Shashwat",
+      "role": "BAT",
+      "country": "IND",
+      "totalPoints": 205,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 12
+        },
+        {
+          "matchNumber": 19,
+          "points": 7
+        },
+        {
+          "matchNumber": 25,
+          "points": 42
+        },
+        {
+          "matchNumber": 43,
+          "points": 16
+        },
+        {
+          "matchNumber": 47,
+          "points": 50
+        },
+        {
+          "matchNumber": 51,
+          "points": 36
+        },
+        {
+          "matchNumber": 54,
+          "points": 2
+        },
+        {
+          "matchNumber": 55,
+          "points": 40
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mark Wood",
+      "owner": "Shashwat",
+      "role": "BOWL",
+      "country": "ENG",
+      "totalPoints": 125,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": 8
+        },
+        {
+          "matchNumber": 17,
+          "points": 2
+        },
+        {
+          "matchNumber": 28,
+          "points": 105
+        },
+        {
+          "matchNumber": 34,
+          "points": 0
+        },
+        {
+          "matchNumber": 42,
+          "points": 8
+        },
+        {
+          "matchNumber": 45,
+          "points": 2
+        },
+        {
+          "matchNumber": 49,
+          "points": 0
+        },
+        {
+          "matchNumber": 54,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Anrich Nortje",
+      "owner": "Shashwat",
+      "role": "BOWL",
+      "country": "SA",
+      "totalPoints": 562.25,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 124
+        },
+        {
+          "matchNumber": 16,
+          "points": 68
+        },
+        {
+          "matchNumber": 21,
+          "points": 60
+        },
+        {
+          "matchNumber": 31,
+          "points": 39
+        },
+        {
+          "matchNumber": 41,
+          "points": 46.25
+        },
+        {
+          "matchNumber": 45,
+          "points": 46.25
+        },
+        {
+          "matchNumber": 50,
+          "points": 22.5
+        },
+        {
+          "matchNumber": 53,
+          "points": 85
+        },
+        {
+          "matchNumber": 55,
+          "points": 71.25
+        }
+      ],
+      "captainStatus": "vice-captain"
+    },
+    {
+      "name": "Matt Henry",
+      "owner": "Sakthi",
+      "role": "BOWL",
+      "country": "NZ",
+      "totalPoints": 114,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 114
+        },
+        {
+          "matchNumber": 26,
+          "points": 0
+        },
+        {
+          "matchNumber": 32,
+          "points": 0
+        },
+        {
+          "matchNumber": 39,
+          "points": 0
+        }
+      ],
+      "captainStatus": "captain"
+    },
+    {
+      "name": "Shakib Al Hasan",
+      "owner": "Sanjay",
+      "role": "AR",
+      "country": "BAN",
+      "totalPoints": 402,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 0
+        },
+        {
+          "matchNumber": 15,
+          "points": 21
+        },
+        {
+          "matchNumber": 21,
+          "points": 22.5
+        },
+        {
+          "matchNumber": 27,
+          "points": 130.5
+        },
+        {
+          "matchNumber": 37,
+          "points": 142.5
+        },
+        {
+          "matchNumber": 44,
+          "points": 18
+        },
+        {
+          "matchNumber": 47,
+          "points": 55.5
+        },
+        {
+          "matchNumber": 52,
+          "points": 12
+        }
+      ],
+      "captainStatus": "captain"
+    },
+    {
+      "name": "Paul Stirling",
+      "owner": "Shashwat",
+      "role": "BAT",
+      "country": "IRE",
+      "totalPoints": 21,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 6
+        },
+        {
+          "matchNumber": 13,
+          "points": 10
+        },
+        {
+          "matchNumber": 36,
+          "points": 5
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Matheesha Pathirana",
+      "owner": "Sakthi",
+      "role": "BOWL",
+      "country": "SL",
+      "totalPoints": 109,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 10
+        },
+        {
+          "matchNumber": 15,
+          "points": 31
+        },
+        {
+          "matchNumber": 38,
+          "points": 68
+        },
+        {
+          "matchNumber": 100,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Ravindra Jadeja",
+      "owner": "Saran",
+      "role": "AR",
+      "country": "IND",
+      "totalPoints": 133,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 4
+        },
+        {
+          "matchNumber": 19,
+          "points": 6
+        },
+        {
+          "matchNumber": 25,
+          "points": 4
+        },
+        {
+          "matchNumber": 43,
+          "points": 67
+        },
+        {
+          "matchNumber": 47,
+          "points": 4
+        },
+        {
+          "matchNumber": 51,
+          "points": 15
+        },
+        {
+          "matchNumber": 54,
+          "points": 27
+        },
+        {
+          "matchNumber": 55,
+          "points": 6
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Keshav Maharaj",
+      "owner": "Shashwat",
+      "role": "BOWL",
+      "country": "SA",
+      "totalPoints": 363,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 66
+        },
+        {
+          "matchNumber": 16,
+          "points": 6
+        },
+        {
+          "matchNumber": 21,
+          "points": 89
+        },
+        {
+          "matchNumber": 31,
+          "points": 0
+        },
+        {
+          "matchNumber": 41,
+          "points": 31
+        },
+        {
+          "matchNumber": 45,
+          "points": 70
+        },
+        {
+          "matchNumber": 50,
+          "points": 33
+        },
+        {
+          "matchNumber": 53,
+          "points": 4
+        },
+        {
+          "matchNumber": 55,
+          "points": 64
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Liam Livingstone",
+      "owner": "Shriman",
+      "role": "AR",
+      "country": "ENG",
+      "totalPoints": 220,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": 4
+        },
+        {
+          "matchNumber": 17,
+          "points": 54
+        },
+        {
+          "matchNumber": 28,
+          "points": 12
+        },
+        {
+          "matchNumber": 34,
+          "points": 21
+        },
+        {
+          "matchNumber": 42,
+          "points": 29
+        },
+        {
+          "matchNumber": 45,
+          "points": 54
+        },
+        {
+          "matchNumber": 49,
+          "points": 31
+        },
+        {
+          "matchNumber": 54,
+          "points": 15
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Wanindu Hasaranga",
+      "owner": "Shashwat",
+      "role": "AR",
+      "country": "SL",
+      "totalPoints": 328.5,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 93
+        },
+        {
+          "matchNumber": 15,
+          "points": 114
+        },
+        {
+          "matchNumber": 38,
+          "points": 121.5
+        },
+        {
+          "matchNumber": 100,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Bas de Leede",
+      "owner": "Shriman",
+      "role": "AR",
+      "country": "NED",
+      "totalPoints": 140,
+      "points": [
+        {
+          "matchNumber": 7,
+          "points": 82
+        },
+        {
+          "matchNumber": 16,
+          "points": 29
+        },
+        {
+          "matchNumber": 27,
+          "points": 8
+        },
+        {
+          "matchNumber": 38,
+          "points": 21
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Litton Das",
+      "owner": "Yukesh",
+      "role": "BAT",
+      "country": "BAN",
+      "totalPoints": 275,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 0
+        },
+        {
+          "matchNumber": 15,
+          "points": 68
+        },
+        {
+          "matchNumber": 21,
+          "points": 12
+        },
+        {
+          "matchNumber": 27,
+          "points": 29
+        },
+        {
+          "matchNumber": 37,
+          "points": 35
+        },
+        {
+          "matchNumber": 44,
+          "points": 20
+        },
+        {
+          "matchNumber": 47,
+          "points": 30
+        },
+        {
+          "matchNumber": 52,
+          "points": 81
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Hardik Pandya",
+      "owner": "Shriman",
+      "role": "AR",
+      "country": "IND",
+      "totalPoints": 570,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 105
+        },
+        {
+          "matchNumber": 19,
+          "points": 60
+        },
+        {
+          "matchNumber": 25,
+          "points": 80
+        },
+        {
+          "matchNumber": 43,
+          "points": 51
+        },
+        {
+          "matchNumber": 47,
+          "points": 101
+        },
+        {
+          "matchNumber": 51,
+          "points": 44
+        },
+        {
+          "matchNumber": 54,
+          "points": 38
+        },
+        {
+          "matchNumber": 55,
+          "points": 91
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Shamar Joseph",
+      "owner": "Shriman",
+      "role": "BOWL",
+      "country": "WI",
+      "totalPoints": 0,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 0
+        },
+        {
+          "matchNumber": 18,
+          "points": 0
+        },
+        {
+          "matchNumber": 26,
+          "points": 0
+        },
+        {
+          "matchNumber": 40,
+          "points": 0
+        },
+        {
+          "matchNumber": 42,
+          "points": 0
+        },
+        {
+          "matchNumber": 46,
+          "points": 0
+        },
+        {
+          "matchNumber": 50,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "David Warner",
+      "owner": "Subu",
+      "role": "BAT",
+      "country": "AUS",
+      "totalPoints": 303,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 84
+        },
+        {
+          "matchNumber": 17,
+          "points": 71
+        },
+        {
+          "matchNumber": 24,
+          "points": 29
+        },
+        {
+          "matchNumber": 35,
+          "points": 5
+        },
+        {
+          "matchNumber": 44,
+          "points": 80
+        },
+        {
+          "matchNumber": 48,
+          "points": 15
+        },
+        {
+          "matchNumber": 51,
+          "points": 19
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Gerald Coetzee",
+      "owner": "Shriman",
+      "role": "BOWL",
+      "country": "SA",
+      "totalPoints": 0,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 0
+        },
+        {
+          "matchNumber": 16,
+          "points": 0
+        },
+        {
+          "matchNumber": 21,
+          "points": 0
+        },
+        {
+          "matchNumber": 31,
+          "points": 0
+        },
+        {
+          "matchNumber": 41,
+          "points": 0
+        },
+        {
+          "matchNumber": 45,
+          "points": 0
+        },
+        {
+          "matchNumber": 50,
+          "points": 0
+        },
+        {
+          "matchNumber": 53,
+          "points": 0
+        },
+        {
+          "matchNumber": 55,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mark Chapman",
+      "owner": "Vishnu",
+      "role": "BAT",
+      "country": "NZ",
+      "totalPoints": 8,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 8
+        },
+        {
+          "matchNumber": 26,
+          "points": 0
+        },
+        {
+          "matchNumber": 32,
+          "points": 0
+        },
+        {
+          "matchNumber": 39,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Reece Topley",
+      "owner": "Subu",
+      "role": "BOWL",
+      "country": "ENG",
+      "totalPoints": 101,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": 0
+        },
+        {
+          "matchNumber": 17,
+          "points": 0
+        },
+        {
+          "matchNumber": 28,
+          "points": 10
+        },
+        {
+          "matchNumber": 34,
+          "points": 10
+        },
+        {
+          "matchNumber": 42,
+          "points": 4
+        },
+        {
+          "matchNumber": 45,
+          "points": 8
+        },
+        {
+          "matchNumber": 49,
+          "points": 29
+        },
+        {
+          "matchNumber": 54,
+          "points": 40
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Nicholas Pooran",
+      "owner": "Yukesh",
+      "role": "BAT",
+      "country": "WI",
+      "totalPoints": 395,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 52
+        },
+        {
+          "matchNumber": 18,
+          "points": 40
+        },
+        {
+          "matchNumber": 26,
+          "points": 34
+        },
+        {
+          "matchNumber": 40,
+          "points": 146
+        },
+        {
+          "matchNumber": 42,
+          "points": 50
+        },
+        {
+          "matchNumber": 46,
+          "points": 52
+        },
+        {
+          "matchNumber": 50,
+          "points": 21
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Pathum Nisanka",
+      "owner": "Yukesh",
+      "role": "BAT",
+      "country": "SL",
+      "totalPoints": 77,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 7
+        },
+        {
+          "matchNumber": 15,
+          "points": 68
+        },
+        {
+          "matchNumber": 38,
+          "points": 2
+        },
+        {
+          "matchNumber": 100,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Yuzvendra Chahal",
+      "owner": "Shriman",
+      "role": "BOWL",
+      "country": "IND",
+      "totalPoints": 0,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 0
+        },
+        {
+          "matchNumber": 19,
+          "points": 0
+        },
+        {
+          "matchNumber": 25,
+          "points": 0
+        },
+        {
+          "matchNumber": 43,
+          "points": 0
+        },
+        {
+          "matchNumber": 47,
+          "points": 0
+        },
+        {
+          "matchNumber": 51,
+          "points": 0
+        },
+        {
+          "matchNumber": 54,
+          "points": 0
+        },
+        {
+          "matchNumber": 55,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mohammed Amir",
+      "owner": "Shriman",
+      "role": "BOWL",
+      "country": "PAK",
+      "totalPoints": 306.25,
+      "points": [
+        {
+          "matchNumber": 11,
+          "points": 38.75
+        },
+        {
+          "matchNumber": 19,
+          "points": 82.5
+        },
+        {
+          "matchNumber": 22,
+          "points": 85
+        },
+        {
+          "matchNumber": 36,
+          "points": 100
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Rowman Powell",
+      "owner": "Vishnu",
+      "role": "BAT",
+      "country": "WI",
+      "totalPoints": 206,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 29
+        },
+        {
+          "matchNumber": 18,
+          "points": 30
+        },
+        {
+          "matchNumber": 26,
+          "points": 13
+        },
+        {
+          "matchNumber": 40,
+          "points": 57
+        },
+        {
+          "matchNumber": 42,
+          "points": 60
+        },
+        {
+          "matchNumber": 46,
+          "points": 12
+        },
+        {
+          "matchNumber": 50,
+          "points": 5
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Andre Rusell",
+      "owner": "Subu",
+      "role": "AR",
+      "country": "WI",
+      "totalPoints": 463,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 81
+        },
+        {
+          "matchNumber": 18,
+          "points": 83
+        },
+        {
+          "matchNumber": 26,
+          "points": 63
+        },
+        {
+          "matchNumber": 40,
+          "points": 40
+        },
+        {
+          "matchNumber": 42,
+          "points": 28
+        },
+        {
+          "matchNumber": 46,
+          "points": 89
+        },
+        {
+          "matchNumber": 50,
+          "points": 79
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Azmatullah Omarzai",
+      "owner": "Shriman",
+      "role": "AR",
+      "country": "AFG",
+      "totalPoints": 384,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 22.5
+        },
+        {
+          "matchNumber": 14,
+          "points": 52.5
+        },
+        {
+          "matchNumber": 29,
+          "points": 54
+        },
+        {
+          "matchNumber": 40,
+          "points": 103.5
+        },
+        {
+          "matchNumber": 43,
+          "points": 60
+        },
+        {
+          "matchNumber": 48,
+          "points": 46.5
+        },
+        {
+          "matchNumber": 52,
+          "points": 21
+        },
+        {
+          "matchNumber": 53,
+          "points": 24
+        }
+      ],
+      "captainStatus": "captain"
+    },
+    {
+      "name": "Babar Azam",
+      "owner": "Vishnu",
+      "role": "BAT",
+      "country": "PAK",
+      "totalPoints": 180,
+      "points": [
+        {
+          "matchNumber": 11,
+          "points": 59
+        },
+        {
+          "matchNumber": 19,
+          "points": 35
+        },
+        {
+          "matchNumber": 22,
+          "points": 44
+        },
+        {
+          "matchNumber": 36,
+          "points": 42
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Josh Little",
+      "owner": "Shashwat",
+      "role": "BOWL",
+      "country": "IRE",
+      "totalPoints": 72,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 18
+        },
+        {
+          "matchNumber": 13,
+          "points": 20
+        },
+        {
+          "matchNumber": 36,
+          "points": 34
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Sherfane Rutherford",
+      "owner": "Vishnu",
+      "role": "BAT",
+      "country": "WI",
+      "totalPoints": 208,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 6
+        },
+        {
+          "matchNumber": 18,
+          "points": 32
+        },
+        {
+          "matchNumber": 26,
+          "points": 100
+        },
+        {
+          "matchNumber": 40,
+          "points": 13
+        },
+        {
+          "matchNumber": 42,
+          "points": 43
+        },
+        {
+          "matchNumber": 46,
+          "points": 4
+        },
+        {
+          "matchNumber": 50,
+          "points": 10
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mitchell Santner",
+      "owner": "Subu",
+      "role": "AR",
+      "country": "NZ",
+      "totalPoints": 201.25,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 12.5
+        },
+        {
+          "matchNumber": 26,
+          "points": 70
+        },
+        {
+          "matchNumber": 32,
+          "points": 75
+        },
+        {
+          "matchNumber": 39,
+          "points": 43.75
+        }
+      ],
+      "captainStatus": "vice-captain"
+    },
+    {
+      "name": "Rishab Pant",
+      "owner": "Shriman",
+      "role": "BAT",
+      "country": "IND",
+      "totalPoints": 438,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 75
+        },
+        {
+          "matchNumber": 19,
+          "points": 86
+        },
+        {
+          "matchNumber": 25,
+          "points": 47
+        },
+        {
+          "matchNumber": 43,
+          "points": 77.5
+        },
+        {
+          "matchNumber": 47,
+          "points": 67.5
+        },
+        {
+          "matchNumber": 51,
+          "points": 27.5
+        },
+        {
+          "matchNumber": 54,
+          "points": 35
+        },
+        {
+          "matchNumber": 55,
+          "points": 22.5
+        }
+      ],
+      "captainStatus": "vice-captain"
+    },
+    {
+      "name": "Brandon King",
+      "owner": "Vishnu",
+      "role": "BAT",
+      "country": "WI",
+      "totalPoints": 147,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 49
+        },
+        {
+          "matchNumber": 18,
+          "points": 19
+        },
+        {
+          "matchNumber": 26,
+          "points": 23
+        },
+        {
+          "matchNumber": 40,
+          "points": 18
+        },
+        {
+          "matchNumber": 42,
+          "points": 38
+        },
+        {
+          "matchNumber": 46,
+          "points": 0
+        },
+        {
+          "matchNumber": 50,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Haris Rauf",
+      "owner": "Yukesh",
+      "role": "BOWL",
+      "country": "PAK",
+      "totalPoints": 224,
+      "points": [
+        {
+          "matchNumber": 11,
+          "points": 40
+        },
+        {
+          "matchNumber": 19,
+          "points": 93
+        },
+        {
+          "matchNumber": 22,
+          "points": 56
+        },
+        {
+          "matchNumber": 36,
+          "points": 35
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Rohit Sharma",
+      "owner": "Yukesh",
+      "role": "BAT",
+      "country": "IND",
+      "totalPoints": 421,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 76
+        },
+        {
+          "matchNumber": 19,
+          "points": 20
+        },
+        {
+          "matchNumber": 25,
+          "points": 7
+        },
+        {
+          "matchNumber": 43,
+          "points": 27
+        },
+        {
+          "matchNumber": 47,
+          "points": 54
+        },
+        {
+          "matchNumber": 51,
+          "points": 141
+        },
+        {
+          "matchNumber": 54,
+          "points": 81
+        },
+        {
+          "matchNumber": 55,
+          "points": 15
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Shai Hope",
+      "owner": "Yukesh",
+      "role": "BAT",
+      "country": "WI",
+      "totalPoints": 165,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 0
+        },
+        {
+          "matchNumber": 18,
+          "points": 0
+        },
+        {
+          "matchNumber": 26,
+          "points": 0
+        },
+        {
+          "matchNumber": 40,
+          "points": 35
+        },
+        {
+          "matchNumber": 42,
+          "points": 0
+        },
+        {
+          "matchNumber": 46,
+          "points": 128
+        },
+        {
+          "matchNumber": 50,
+          "points": 2
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Fazalhaq Farooqi",
+      "owner": "Shriman",
+      "role": "BOWL",
+      "country": "AFG",
+      "totalPoints": 574,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 183
+        },
+        {
+          "matchNumber": 14,
+          "points": 124
+        },
+        {
+          "matchNumber": 29,
+          "points": 95
+        },
+        {
+          "matchNumber": 40,
+          "points": -2
+        },
+        {
+          "matchNumber": 43,
+          "points": 88
+        },
+        {
+          "matchNumber": 48,
+          "points": 6
+        },
+        {
+          "matchNumber": 52,
+          "points": 37
+        },
+        {
+          "matchNumber": 53,
+          "points": 43
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Axar Patel",
+      "owner": "Shashwat",
+      "role": "AR",
+      "country": "IND",
+      "totalPoints": 462,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 37
+        },
+        {
+          "matchNumber": 19,
+          "points": 65
+        },
+        {
+          "matchNumber": 25,
+          "points": 37
+        },
+        {
+          "matchNumber": 43,
+          "points": 67
+        },
+        {
+          "matchNumber": 47,
+          "points": 9
+        },
+        {
+          "matchNumber": 51,
+          "points": 39
+        },
+        {
+          "matchNumber": 54,
+          "points": 113
+        },
+        {
+          "matchNumber": 55,
+          "points": 95
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Cameron Green",
+      "owner": "Vishnu",
+      "role": "AR",
+      "country": "AUS",
+      "totalPoints": 0,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 0
+        },
+        {
+          "matchNumber": 17,
+          "points": 0
+        },
+        {
+          "matchNumber": 24,
+          "points": 0
+        },
+        {
+          "matchNumber": 35,
+          "points": 0
+        },
+        {
+          "matchNumber": 44,
+          "points": 0
+        },
+        {
+          "matchNumber": 48,
+          "points": 0
+        },
+        {
+          "matchNumber": 51,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Reeza Hendricks",
+      "owner": "Vishnu",
+      "role": "BAT",
+      "country": "SA",
+      "totalPoints": 192,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 25
+        },
+        {
+          "matchNumber": 16,
+          "points": 1
+        },
+        {
+          "matchNumber": 21,
+          "points": 2
+        },
+        {
+          "matchNumber": 31,
+          "points": 58
+        },
+        {
+          "matchNumber": 41,
+          "points": 17
+        },
+        {
+          "matchNumber": 45,
+          "points": 32
+        },
+        {
+          "matchNumber": 50,
+          "points": 2
+        },
+        {
+          "matchNumber": 53,
+          "points": 46
+        },
+        {
+          "matchNumber": 55,
+          "points": 9
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Sadeera Samarawickrama",
+      "owner": "Shashwat",
+      "role": "BAT",
+      "country": "SL",
+      "totalPoints": 2,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 2
+        },
+        {
+          "matchNumber": 15,
+          "points": 0
+        },
+        {
+          "matchNumber": 38,
+          "points": 0
+        },
+        {
+          "matchNumber": 100,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Arshdeep Singh",
+      "owner": "Shashwat",
+      "role": "BOWL",
+      "country": "IND",
+      "totalPoints": 686.5,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 62
+        },
+        {
+          "matchNumber": 19,
+          "points": 47
+        },
+        {
+          "matchNumber": 25,
+          "points": 126
+        },
+        {
+          "matchNumber": 43,
+          "points": 139.5
+        },
+        {
+          "matchNumber": 47,
+          "points": 93
+        },
+        {
+          "matchNumber": 51,
+          "points": 124.5
+        },
+        {
+          "matchNumber": 54,
+          "points": 7.5
+        },
+        {
+          "matchNumber": 55,
+          "points": 87
+        }
+      ],
+      "captainStatus": "captain"
+    },
+    {
+      "name": "Travis Head",
+      "owner": "Subu",
+      "role": "BAT",
+      "country": "AUS",
+      "totalPoints": 387,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 18
+        },
+        {
+          "matchNumber": 17,
+          "points": 56
+        },
+        {
+          "matchNumber": 24,
+          "points": 57
+        },
+        {
+          "matchNumber": 35,
+          "points": 95
+        },
+        {
+          "matchNumber": 44,
+          "points": 48
+        },
+        {
+          "matchNumber": 48,
+          "points": 2
+        },
+        {
+          "matchNumber": 51,
+          "points": 111
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mohammed Siraj",
+      "owner": "Subu",
+      "role": "BOWL",
+      "country": "IND",
+      "totalPoints": 86,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 41
+        },
+        {
+          "matchNumber": 19,
+          "points": 17
+        },
+        {
+          "matchNumber": 25,
+          "points": 28
+        },
+        {
+          "matchNumber": 43,
+          "points": 0
+        },
+        {
+          "matchNumber": 47,
+          "points": 0
+        },
+        {
+          "matchNumber": 51,
+          "points": 0
+        },
+        {
+          "matchNumber": 54,
+          "points": 0
+        },
+        {
+          "matchNumber": 55,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mehedi Hasan",
+      "owner": "Yukesh",
+      "role": "AR",
+      "country": "BAN",
+      "totalPoints": 18,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 0
+        },
+        {
+          "matchNumber": 15,
+          "points": 0
+        },
+        {
+          "matchNumber": 21,
+          "points": 0
+        },
+        {
+          "matchNumber": 27,
+          "points": 0
+        },
+        {
+          "matchNumber": 37,
+          "points": 0
+        },
+        {
+          "matchNumber": 44,
+          "points": 6
+        },
+        {
+          "matchNumber": 47,
+          "points": 12
+        },
+        {
+          "matchNumber": 52,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Josh Hazlewood",
+      "owner": "Yukesh",
+      "role": "BOWL",
+      "country": "AUS",
+      "totalPoints": 289.5,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 24
+        },
+        {
+          "matchNumber": 17,
+          "points": 46.5
+        },
+        {
+          "matchNumber": 24,
+          "points": 102
+        },
+        {
+          "matchNumber": 35,
+          "points": 0
+        },
+        {
+          "matchNumber": 44,
+          "points": 39
+        },
+        {
+          "matchNumber": 48,
+          "points": 13.5
+        },
+        {
+          "matchNumber": 51,
+          "points": 64.5
+        }
+      ],
+      "captainStatus": "captain"
+    },
+    {
+      "name": "Nuwan Thushara",
+      "owner": "Shriman",
+      "role": "BOWL",
+      "country": "SL",
+      "totalPoints": 266,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 31
+        },
+        {
+          "matchNumber": 15,
+          "points": 142
+        },
+        {
+          "matchNumber": 38,
+          "points": 93
+        },
+        {
+          "matchNumber": 100,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Kuldeep Yadav",
+      "owner": "Subu",
+      "role": "BOWL",
+      "country": "IND",
+      "totalPoints": 358,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 0
+        },
+        {
+          "matchNumber": 19,
+          "points": 0
+        },
+        {
+          "matchNumber": 25,
+          "points": 0
+        },
+        {
+          "matchNumber": 43,
+          "points": 54
+        },
+        {
+          "matchNumber": 47,
+          "points": 105
+        },
+        {
+          "matchNumber": 51,
+          "points": 72
+        },
+        {
+          "matchNumber": 54,
+          "points": 119
+        },
+        {
+          "matchNumber": 55,
+          "points": 8
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Gulbadin Naib",
+      "owner": "Shashwat",
+      "role": "AR",
+      "country": "AFG",
+      "totalPoints": 388,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 16
+        },
+        {
+          "matchNumber": 14,
+          "points": 10
+        },
+        {
+          "matchNumber": 29,
+          "points": 67
+        },
+        {
+          "matchNumber": 40,
+          "points": 70
+        },
+        {
+          "matchNumber": 43,
+          "points": 32
+        },
+        {
+          "matchNumber": 48,
+          "points": 138
+        },
+        {
+          "matchNumber": 52,
+          "points": 40
+        },
+        {
+          "matchNumber": 53,
+          "points": 15
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Rachin Ravindra",
+      "owner": "Yukesh",
+      "role": "BAT",
+      "country": "NZ",
+      "totalPoints": 101,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 0
+        },
+        {
+          "matchNumber": 26,
+          "points": 22
+        },
+        {
+          "matchNumber": 32,
+          "points": 73
+        },
+        {
+          "matchNumber": 39,
+          "points": 6
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Daryl Mitchell",
+      "owner": "Yukesh",
+      "role": "BAT",
+      "country": "NZ",
+      "totalPoints": 121.25,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 12.5
+        },
+        {
+          "matchNumber": 26,
+          "points": 21.25
+        },
+        {
+          "matchNumber": 32,
+          "points": 15
+        },
+        {
+          "matchNumber": 39,
+          "points": 72.5
+        }
+      ],
+      "captainStatus": "vice-captain"
+    },
+    {
+      "name": "Tabraiz Shamsi",
+      "owner": "Subu",
+      "role": "BOWL",
+      "country": "SA",
+      "totalPoints": 369,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 0
+        },
+        {
+          "matchNumber": 16,
+          "points": 0
+        },
+        {
+          "matchNumber": 21,
+          "points": 0
+        },
+        {
+          "matchNumber": 31,
+          "points": 142
+        },
+        {
+          "matchNumber": 41,
+          "points": 31
+        },
+        {
+          "matchNumber": 45,
+          "points": 0
+        },
+        {
+          "matchNumber": 50,
+          "points": 85
+        },
+        {
+          "matchNumber": 53,
+          "points": 107
+        },
+        {
+          "matchNumber": 55,
+          "points": 4
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Ish Sodhi",
+      "owner": "Subu",
+      "role": "BOWL",
+      "country": "NZ",
+      "totalPoints": 54,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 0
+        },
+        {
+          "matchNumber": 26,
+          "points": 0
+        },
+        {
+          "matchNumber": 32,
+          "points": 0
+        },
+        {
+          "matchNumber": 39,
+          "points": 54
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Dasun Shanaka",
+      "owner": "Subu",
+      "role": "AR",
+      "country": "SL",
+      "totalPoints": 92,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 58
+        },
+        {
+          "matchNumber": 15,
+          "points": 7
+        },
+        {
+          "matchNumber": 38,
+          "points": 27
+        },
+        {
+          "matchNumber": 100,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Imad Wasim",
+      "owner": "Yukesh",
+      "role": "AR",
+      "country": "PAK",
+      "totalPoints": 162,
+      "points": [
+        {
+          "matchNumber": 11,
+          "points": 0
+        },
+        {
+          "matchNumber": 19,
+          "points": 38
+        },
+        {
+          "matchNumber": 22,
+          "points": 22
+        },
+        {
+          "matchNumber": 36,
+          "points": 102
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Rahmanullah Gurbaz",
+      "owner": "Yukesh",
+      "role": "BAT",
+      "country": "AFG",
+      "totalPoints": 465,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 120
+        },
+        {
+          "matchNumber": 14,
+          "points": 117
+        },
+        {
+          "matchNumber": 29,
+          "points": 52
+        },
+        {
+          "matchNumber": 40,
+          "points": 2
+        },
+        {
+          "matchNumber": 43,
+          "points": 24
+        },
+        {
+          "matchNumber": 48,
+          "points": 92
+        },
+        {
+          "matchNumber": 52,
+          "points": 56
+        },
+        {
+          "matchNumber": 53,
+          "points": 2
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Harry Tector",
+      "owner": "Yukesh",
+      "role": "BAT",
+      "country": "IRE",
+      "totalPoints": 31,
+      "points": [
+        {
+          "matchNumber": 8,
+          "points": 2
+        },
+        {
+          "matchNumber": 13,
+          "points": 11
+        },
+        {
+          "matchNumber": 36,
+          "points": 18
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Mitchell Marsh",
+      "owner": "Vishnu",
+      "role": "BAT",
+      "country": "AUS",
+      "totalPoints": 202,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 18
+        },
+        {
+          "matchNumber": 17,
+          "points": 51
+        },
+        {
+          "matchNumber": 24,
+          "points": 35
+        },
+        {
+          "matchNumber": 35,
+          "points": 13
+        },
+        {
+          "matchNumber": 44,
+          "points": 5
+        },
+        {
+          "matchNumber": 48,
+          "points": 26
+        },
+        {
+          "matchNumber": 51,
+          "points": 54
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Fakhar Zaman",
+      "owner": "Vishnu",
+      "role": "BAT",
+      "country": "PAK",
+      "totalPoints": 87.5,
+      "points": [
+        {
+          "matchNumber": 11,
+          "points": 21.25
+        },
+        {
+          "matchNumber": 19,
+          "points": 25
+        },
+        {
+          "matchNumber": 22,
+          "points": 30
+        },
+        {
+          "matchNumber": 36,
+          "points": 11.25
+        }
+      ],
+      "captainStatus": "vice-captain"
+    },
+    {
+      "name": "Roston Chase",
+      "owner": "Vishnu",
+      "role": "AR",
+      "country": "WI",
+      "totalPoints": 410,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 72
+        },
+        {
+          "matchNumber": 18,
+          "points": 4
+        },
+        {
+          "matchNumber": 26,
+          "points": 18
+        },
+        {
+          "matchNumber": 40,
+          "points": 0
+        },
+        {
+          "matchNumber": 42,
+          "points": 39
+        },
+        {
+          "matchNumber": 46,
+          "points": 113
+        },
+        {
+          "matchNumber": 50,
+          "points": 164
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Tim David",
+      "owner": "Vishnu",
+      "role": "BAT",
+      "country": "AUS",
+      "totalPoints": 222,
+      "points": [
+        {
+          "matchNumber": 10,
+          "points": 34.5
+        },
+        {
+          "matchNumber": 17,
+          "points": 25.5
+        },
+        {
+          "matchNumber": 24,
+          "points": 18
+        },
+        {
+          "matchNumber": 35,
+          "points": 57
+        },
+        {
+          "matchNumber": 44,
+          "points": 6
+        },
+        {
+          "matchNumber": 48,
+          "points": 33
+        },
+        {
+          "matchNumber": 51,
+          "points": 48
+        }
+      ],
+      "captainStatus": "captain"
+    },
+    {
+      "name": "Adil Rashid",
+      "owner": "Subu",
+      "role": "BOWL",
+      "country": "ENG",
+      "totalPoints": 348,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": -2
+        },
+        {
+          "matchNumber": 17,
+          "points": 27
+        },
+        {
+          "matchNumber": 28,
+          "points": 134
+        },
+        {
+          "matchNumber": 34,
+          "points": -2
+        },
+        {
+          "matchNumber": 42,
+          "points": 33
+        },
+        {
+          "matchNumber": 45,
+          "points": 41
+        },
+        {
+          "matchNumber": 49,
+          "points": 76
+        },
+        {
+          "matchNumber": 54,
+          "points": 41
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Jimmy Neesham",
+      "owner": "Subu",
+      "role": "AR",
+      "country": "NZ",
+      "totalPoints": 55,
+      "points": [
+        {
+          "matchNumber": 14,
+          "points": 0
+        },
+        {
+          "matchNumber": 26,
+          "points": 51
+        },
+        {
+          "matchNumber": 32,
+          "points": 4
+        },
+        {
+          "matchNumber": 39,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Jos Buttler",
+      "owner": "Vishnu",
+      "role": "BAT",
+      "country": "ENG",
+      "totalPoints": 389,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": 4
+        },
+        {
+          "matchNumber": 17,
+          "points": 79
+        },
+        {
+          "matchNumber": 28,
+          "points": 51
+        },
+        {
+          "matchNumber": 34,
+          "points": 2
+        },
+        {
+          "matchNumber": 42,
+          "points": 39
+        },
+        {
+          "matchNumber": 45,
+          "points": 42
+        },
+        {
+          "matchNumber": 49,
+          "points": 129
+        },
+        {
+          "matchNumber": 54,
+          "points": 43
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Chris Jordan",
+      "owner": "Vishnu",
+      "role": "BOWL",
+      "country": "ENG",
+      "totalPoints": 324,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": 0
+        },
+        {
+          "matchNumber": 17,
+          "points": 59
+        },
+        {
+          "matchNumber": 28,
+          "points": 0
+        },
+        {
+          "matchNumber": 34,
+          "points": 29
+        },
+        {
+          "matchNumber": 42,
+          "points": 0
+        },
+        {
+          "matchNumber": 45,
+          "points": 0
+        },
+        {
+          "matchNumber": 49,
+          "points": 150
+        },
+        {
+          "matchNumber": 54,
+          "points": 86
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "David Miller",
+      "owner": "Yukesh",
+      "role": "BAT",
+      "country": "SA",
+      "totalPoints": 261,
+      "points": [
+        {
+          "matchNumber": 4,
+          "points": 11
+        },
+        {
+          "matchNumber": 16,
+          "points": 90
+        },
+        {
+          "matchNumber": 21,
+          "points": 44
+        },
+        {
+          "matchNumber": 31,
+          "points": 9
+        },
+        {
+          "matchNumber": 41,
+          "points": 2
+        },
+        {
+          "matchNumber": 45,
+          "points": 63
+        },
+        {
+          "matchNumber": 50,
+          "points": 2
+        },
+        {
+          "matchNumber": 53,
+          "points": 4
+        },
+        {
+          "matchNumber": 55,
+          "points": 36
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Jonny Bairstow",
+      "owner": "Shriman",
+      "role": "BAT",
+      "country": "ENG",
+      "totalPoints": 183,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": 4
+        },
+        {
+          "matchNumber": 17,
+          "points": 7
+        },
+        {
+          "matchNumber": 28,
+          "points": 14
+        },
+        {
+          "matchNumber": 34,
+          "points": 52
+        },
+        {
+          "matchNumber": 42,
+          "points": 71
+        },
+        {
+          "matchNumber": 45,
+          "points": 21
+        },
+        {
+          "matchNumber": 49,
+          "points": 4
+        },
+        {
+          "matchNumber": 54,
+          "points": 10
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Sybrand Engelbrecht",
+      "owner": "Shriman",
+      "role": "AR",
+      "country": "NED",
+      "totalPoints": 168,
+      "points": [
+        {
+          "matchNumber": 7,
+          "points": 19
+        },
+        {
+          "matchNumber": 16,
+          "points": 52
+        },
+        {
+          "matchNumber": 27,
+          "points": 64
+        },
+        {
+          "matchNumber": 38,
+          "points": 33
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Noor Ahmad",
+      "owner": "Shriman",
+      "role": "BOWL",
+      "country": "AFG",
+      "totalPoints": 114,
+      "points": [
+        {
+          "matchNumber": 5,
+          "points": 0
+        },
+        {
+          "matchNumber": 14,
+          "points": 4
+        },
+        {
+          "matchNumber": 29,
+          "points": 49
+        },
+        {
+          "matchNumber": 40,
+          "points": 10
+        },
+        {
+          "matchNumber": 43,
+          "points": 17
+        },
+        {
+          "matchNumber": 48,
+          "points": 20
+        },
+        {
+          "matchNumber": 52,
+          "points": 10
+        },
+        {
+          "matchNumber": 53,
+          "points": 4
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Akeal Hosein",
+      "owner": "Vishnu",
+      "role": "BOWL",
+      "country": "WI",
+      "totalPoints": 383,
+      "points": [
+        {
+          "matchNumber": 2,
+          "points": 43
+        },
+        {
+          "matchNumber": 18,
+          "points": 191
+        },
+        {
+          "matchNumber": 26,
+          "points": 50
+        },
+        {
+          "matchNumber": 40,
+          "points": 76
+        },
+        {
+          "matchNumber": 42,
+          "points": 4
+        },
+        {
+          "matchNumber": 46,
+          "points": 10
+        },
+        {
+          "matchNumber": 50,
+          "points": 9
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Jofra Archer",
+      "owner": "Subu",
+      "role": "BOWL",
+      "country": "ENG",
+      "totalPoints": 523.5,
+      "points": [
+        {
+          "matchNumber": 6,
+          "points": 9
+        },
+        {
+          "matchNumber": 17,
+          "points": 58.5
+        },
+        {
+          "matchNumber": 28,
+          "points": 151.5
+        },
+        {
+          "matchNumber": 34,
+          "points": 43.5
+        },
+        {
+          "matchNumber": 42,
+          "points": 43.5
+        },
+        {
+          "matchNumber": 45,
+          "points": 123
+        },
+        {
+          "matchNumber": 49,
+          "points": 12
+        },
+        {
+          "matchNumber": 54,
+          "points": 82.5
+        }
+      ],
+      "captainStatus": "captain"
+    },
+    {
+      "name": "Iftikar Ahmed",
+      "owner": "Subu",
+      "role": "AR",
+      "country": "PAK",
+      "totalPoints": 42,
+      "points": [
+        {
+          "matchNumber": 11,
+          "points": 25
+        },
+        {
+          "matchNumber": 19,
+          "points": 17
+        },
+        {
+          "matchNumber": 22,
+          "points": 0
+        },
+        {
+          "matchNumber": 36,
+          "points": 0
+        }
+      ],
+      "captainStatus": "none"
+    },
+    {
+      "name": "Shriman",
+      "owner": "Shriman",
+      "country": "Penalty",
+      "totalPoints": -106.89,
+      "captainStatus": "none"
+    },
+    {
+      "name": "Shashwat",
+      "owner": "Shashwat",
+      "totalPoints": -247.99,
+      "country": "Penalty",
+      "captainStatus": "none"
+    },
+    {
+      "name": "Sanjay",
+      "owner": "Sanjay",
+      "totalPoints": -90.21,
+      "country": "Penalty",
+      "captainStatus": "none"
+    },
+    {
+      "name": "Sakthi",
+      "owner": "Sakthi",
+      "totalPoints": -105.01,
+      "country": "Penalty",
+      "captainStatus": "none"
+    }
+  ],
+  "owners": [
+    {
+      "date": "2024-06-02T18:45:32.661Z",
+      "points": {
+        "Sakthi": 0,
+        "Sathish": 40,
+        "Sanjay": 0,
+        "Saran": 0,
+        "Shashwat": 0,
+        "Yukesh": 0,
+        "Shriman": 0,
+        "Vishnu": 0,
+        "Subu": 0
+      }
+    },
+    {
+      "date": "2024-06-02T18:54:03.820Z",
+      "points": {
+        "Sakthi": 2,
+        "Sathish": 69,
+        "Sanjay": 0,
+        "Saran": 74,
+        "Shashwat": 0,
+        "Yukesh": 52,
+        "Shriman": 0,
+        "Vishnu": 199,
+        "Subu": 81
+      }
+    },
+    {
+      "date": "2024-06-04T18:57:46.559Z",
+      "points": {
+        "Sakthi": 138,
+        "Sathish": 100,
+        "Sanjay": 106,
+        "Saran": 74,
+        "Shashwat": 285,
+        "Shriman": 31,
+        "Yukesh": 70,
+        "Subu": 139,
+        "Vishnu": 224
+      }
+    },
+    {
+      "date": "2024-06-04T19:04:18.478Z",
+      "points": {
+        "Sakthi": 253,
+        "Sathish": 178,
+        "Sanjay": 106,
+        "Saran": 107,
+        "Shashwat": 301,
+        "Shriman": 236.5,
+        "Yukesh": 190,
+        "Subu": 139,
+        "Vishnu": 224
+      }
+    },
+    {
+      "date": "2024-06-05T18:12:41.827Z",
+      "points": {
+        "Sakthi": 257,
+        "Sathish": 195,
+        "Sanjay": 106,
+        "Saran": 107,
+        "Shashwat": 313,
+        "Yukesh": 190,
+        "Shriman": 345.5,
+        "Vishnu": 228,
+        "Subu": 146
+      }
+    },
+    {
+      "date": "2024-06-05T18:27:17.973Z",
+      "points": {
+        "Sakthi": 345,
+        "Sathish": 208,
+        "Sanjay": 112,
+        "Saran": 111,
+        "Shashwat": 448,
+        "Yukesh": 268,
+        "Shriman": 525.5,
+        "Vishnu": 228,
+        "Subu": 187
+      }
+    },
+    {
+      "date": "2024-06-06T04:42:15.495Z",
+      "points": {
+        "Sakthi": 345,
+        "Sathish": 288,
+        "Sanjay": 292,
+        "Saran": 283,
+        "Shashwat": 448,
+        "Yukesh": 292,
+        "Shriman": 525.5,
+        "Vishnu": 280.5,
+        "Subu": 289
+      }
+    },
+    {
+      "date": "2024-06-06T20:03:32.221Z",
+      "points": {
+        "Sakthi": 377,
+        "Sathish": 411.5,
+        "Sanjay": 292,
+        "Saran": 323.75,
+        "Shashwat": 448,
+        "Shriman": 564.25,
+        "Yukesh": 332,
+        "Subu": 314,
+        "Vishnu": 360.75
+      }
+    },
+    {
+      "date": "2024-06-07T18:09:06.542Z",
+      "points": {
+        "Sakthi": 377,
+        "Sathish": 411.5,
+        "Sanjay": 292,
+        "Saran": 323.75,
+        "Shashwat": 478,
+        "Shriman": 564.25,
+        "Yukesh": 343,
+        "Subu": 314,
+        "Vishnu": 360.75
+      }
+    },
+    {
+      "date": "2024-06-08T04:42:03.525Z",
+      "points": {
+        "Sakthi": 626.5,
+        "Sathish": 643.5,
+        "Sanjay": 351,
+        "Saran": 364.75,
+        "Shashwat": 511.75,
+        "Shriman": 744.75,
+        "Yukesh": 472.5,
+        "Subu": 326.5,
+        "Vishnu": 368.75
+      },
+      "matchNumber": 14
+    },
+    {
+      "date": "2024-06-08T09:53:25.474Z",
+      "matchNumber": 15,
+      "points": {
+        "Sakthi": 834.5,
+        "Sathish": 657.5,
+        "Sanjay": 442,
+        "Saran": 364.75,
+        "Shashwat": 625.75,
+        "Shriman": 886.75,
+        "Yukesh": 608.5,
+        "Subu": 333.5,
+        "Vishnu": 368.75
+      }
+    },
+    {
+      "date": "2024-06-09T03:48:47.982Z",
+      "matchNumber": 16,
+      "points": {
+        "Sakthi": 862.5,
+        "Sathish": 725.5,
+        "Sanjay": 553,
+        "Saran": 364.75,
+        "Shashwat": 699.75,
+        "Shriman": 967.75,
+        "Yukesh": 698.5,
+        "Subu": 333.5,
+        "Vishnu": 369.75
+      }
+    },
+    {
+      "date": "2024-06-09T03:56:53.750Z",
+      "matchNumber": 17,
+      "points": {
+        "Sakthi": 877.5,
+        "Sathish": 880,
+        "Sanjay": 628,
+        "Saran": 513.75,
+        "Shashwat": 801.75,
+        "Shriman": 1028.75,
+        "Yukesh": 745,
+        "Subu": 546,
+        "Vishnu": 584.25
+      }
+    },
+    {
+      "date": "2024-06-09T04:01:26.959Z",
+      "matchNumber": 18,
+      "points": {
+        "Sakthi": 937.5,
+        "Sathish": 920,
+        "Sanjay": 628,
+        "Saran": 589.75,
+        "Shashwat": 801.75,
+        "Shriman": 1028.75,
+        "Yukesh": 785,
+        "Subu": 629,
+        "Vishnu": 860.25
+      }
+    },
+    {
+      "date": "2024-06-09T21:09:31.235Z",
+      "matchNumber": 19,
+      "points": {
+        "Sakthi": 1063.5,
+        "Sathish": 1056,
+        "Sanjay": 648,
+        "Saran": 655.75,
+        "Shashwat": 920.75,
+        "Shriman": 1257.25,
+        "Yukesh": 936,
+        "Subu": 663,
+        "Vishnu": 920.25
+      }
+    },
+    {
+      "date": "2024-06-10T18:29:29.877Z",
+      "matchNumber": 21,
+      "points": {
+        "Sakthi": 1263.5,
+        "Sathish": 1058,
+        "Sanjay": 834.5,
+        "Saran": 655.75,
+        "Shashwat": 1069.75,
+        "Shriman": 1257.25,
+        "Yukesh": 992,
+        "Subu": 663,
+        "Vishnu": 922.25
+      }
+    },
+    {
+      "date": "2024-06-11T19:29:15.257Z",
+      "matchNumber": 22,
+      "points": {
+        "Sakthi": 1296.5,
+        "Sathish": 1103,
+        "Sanjay": 834.5,
+        "Saran": 762,
+        "Shashwat": 1069.75,
+        "Shriman": 1342.25,
+        "Yukesh": 1070,
+        "Subu": 663,
+        "Vishnu": 996.25
+      }
+    },
+    {
+      "date": "2024-06-12T09:45:30.033Z",
+      "matchNumber": 24,
+      "points": {
+        "Sakthi": 1296.5,
+        "Sathish": 1103,
+        "Sanjay": 894.5,
+        "Saran": 997,
+        "Shashwat": 1114.75,
+        "Shriman": 1342.25,
+        "Yukesh": 1172,
+        "Subu": 749,
+        "Vishnu": 1049.25
+      }
+    },
+    {
+      "date": "2024-06-12T18:50:58.329Z",
+      "matchNumber": 25,
+      "points": {
+        "Sakthi": 1302.5,
+        "Sathish": 1131,
+        "Sanjay": 962.5,
+        "Saran": 1001,
+        "Shashwat": 1319.75,
+        "Shriman": 1469.25,
+        "Yukesh": 1179,
+        "Subu": 777,
+        "Vishnu": 1049.25
+      }
+    },
+    {
+      "date": "2024-06-13T04:53:31.572Z",
+      "matchNumber": 26,
+      "points": {
+        "Sakthi": 1348.25,
+        "Sathish": 1272,
+        "Sanjay": 1023.75,
+        "Saran": 1264,
+        "Shashwat": 1366,
+        "Shriman": 1469.25,
+        "Yukesh": 1256.25,
+        "Subu": 961,
+        "Vishnu": 1253.25
+      }
+    },
+    {
+      "date": "2024-06-13T21:58:46.388Z",
+      "matchNumber": 27,
+      "points": {
+        "Sakthi": 1445.25,
+        "Sathish": 1304,
+        "Sanjay": 1219.25,
+        "Saran": 1264,
+        "Shashwat": 1366,
+        "Shriman": 1541.25,
+        "Yukesh": 1285.25,
+        "Subu": 961,
+        "Vishnu": 1253.25
+      }
+    },
+    {
+      "date": "2024-06-13T22:02:23.513Z",
+      "matchNumber": 28,
+      "points": {
+        "Sakthi": 1463.25,
+        "Sathish": 1344,
+        "Sanjay": 1219.25,
+        "Saran": 1264,
+        "Shashwat": 1475,
+        "Shriman": 1567.25,
+        "Yukesh": 1285.25,
+        "Subu": 1256.5,
+        "Vishnu": 1304.25
+      }
+    },
+    {
+      "date": "2024-06-14T18:28:56.841Z",
+      "matchNumber": 29,
+      "points": {
+        "Sakthi": 1484.25,
+        "Sathish": 1376,
+        "Sanjay": 1219.25,
+        "Saran": 1264,
+        "Shashwat": 1542,
+        "Shriman": 1765.25,
+        "Yukesh": 1337.25,
+        "Subu": 1256.5,
+        "Vishnu": 1304.25
+      }
+    },
+    {
+      "date": "2024-06-15T06:26:31.581Z",
+      "matchNumber": 31,
+      "points": {
+        "Sakthi": 1538.25,
+        "Sathish": 1413,
+        "Sanjay": 1280.25,
+        "Saran": 1264,
+        "Shashwat": 1581,
+        "Shriman": 1765.25,
+        "Yukesh": 1346.25,
+        "Subu": 1398.5,
+        "Vishnu": 1362.25
+      }
+    },
+    {
+      "date": "2024-06-15T06:28:45.352Z",
+      "matchNumber": 32,
+      "points": {
+        "Sakthi": 1550.75,
+        "Sathish": 1501,
+        "Sanjay": 1297.25,
+        "Saran": 1432,
+        "Shashwat": 1641,
+        "Shriman": 1765.25,
+        "Yukesh": 1434.25,
+        "Subu": 1477.5,
+        "Vishnu": 1362.25
+      }
+    },
+    {
+      "date": "2024-06-16T04:03:04.117Z",
+      "matchNumber": 34,
+      "points": {
+        "Sakthi": 1550.75,
+        "Sathish": 1542,
+        "Sanjay": 1303.25,
+        "Saran": 1432,
+        "Shashwat": 1726,
+        "Shriman": 1838.25,
+        "Yukesh": 1434.25,
+        "Subu": 1529,
+        "Vishnu": 1393.25
+      }
+    },
+    {
+      "date": "2024-06-16T04:34:47.919Z",
+      "matchNumber": 35,
+      "points": {
+        "Sakthi": 1550.75,
+        "Sathish": 1567,
+        "Sanjay": 1393.25,
+        "Saran": 1575,
+        "Shashwat": 1726,
+        "Shriman": 1838.25,
+        "Yukesh": 1434.25,
+        "Subu": 1629,
+        "Vishnu": 1463.25
+      }
+    },
+    {
+      "date": "2024-06-16T18:32:15.600Z",
+      "matchNumber": 36,
+      "points": {
+        "Sakthi": 1678.75,
+        "Sathish": 1582,
+        "Sanjay": 1393.25,
+        "Saran": 1623.75,
+        "Shashwat": 1765,
+        "Shriman": 1938.25,
+        "Yukesh": 1589.25,
+        "Subu": 1629,
+        "Vishnu": 1516.5
+      }
+    },
+    {
+      "date": "2024-06-17T04:37:48.393Z",
+      "matchNumber": 37,
+      "points": {
+        "Sakthi": 1825.75,
+        "Sathish": 1582,
+        "Sanjay": 1578.75,
+        "Saran": 1623.75,
+        "Shashwat": 1765,
+        "Shriman": 1938.25,
+        "Yukesh": 1624.25,
+        "Subu": 1629,
+        "Vishnu": 1516.5
+      }
+    },
+    {
+      "date": "2024-06-17T04:40:10.893Z",
+      "matchNumber": 38,
+      "points": {
+        "Sakthi": 1991.75,
+        "Sathish": 1670,
+        "Sanjay": 1665.75,
+        "Saran": 1623.75,
+        "Shashwat": 1886.5,
+        "Shriman": 2085.25,
+        "Yukesh": 1626.25,
+        "Subu": 1656,
+        "Vishnu": 1516.5
+      }
+    },
+    {
+      "date": "2024-06-18T05:23:53.486Z",
+      "matchNumber": 39,
+      "points": {
+        "Sakthi": 2004.25,
+        "Sathish": 1738,
+        "Sanjay": 1720.25,
+        "Saran": 1844.75,
+        "Shashwat": 1965.25,
+        "Shriman": 2085.25,
+        "Yukesh": 1704.75,
+        "Subu": 1753.75,
+        "Vishnu": 1516.5
+      }
+    },
+    {
+      "date": "2024-06-18T05:28:32.200Z",
+      "matchNumber": 40,
+      "points": {
+        "Sakthi": 2143.25,
+        "Sathish": 1760,
+        "Sanjay": 1720.25,
+        "Saran": 1871.75,
+        "Shashwat": 2035.25,
+        "Shriman": 2196.75,
+        "Yukesh": 1887.75,
+        "Subu": 1793.75,
+        "Vishnu": 1680.5
+      }
+    },
+    {
+      "date": "2024-06-19T16:59:33.114Z",
+      "matchNumber": 40.5,
+      "points": {
+        "Sakthi": 2038.24,
+        "Sathish": 1760,
+        "Sanjay": 1630.04,
+        "Saran": 1871.75,
+        "Shashwat": 1787.26,
+        "Shriman": 2089.86,
+        "Yukesh": 1887.75,
+        "Subu": 1793.75,
+        "Vishnu": 1680.5
+      }
+    },
+    {
+      "date": "2024-06-19T17:58:27.530Z",
+      "matchNumber": 41,
+      "points": {
+        "Sakthi": 2204.74,
+        "Sathish": 1828,
+        "Sanjay": 1811.04,
+        "Saran": 1871.75,
+        "Shashwat": 1864.51,
+        "Shriman": 2089.86,
+        "Yukesh": 1889.75,
+        "Subu": 1824.75,
+        "Vishnu": 1697.5
+      }
+    },
+    {
+      "date": "2024-06-20T04:01:23.366Z",
+      "matchNumber": 42,
+      "points": {
+        "Sakthi": 2264.74,
+        "Sathish": 2008,
+        "Sanjay": 1815.04,
+        "Saran": 1869.75,
+        "Shashwat": 1884.51,
+        "Shriman": 2189.86,
+        "Yukesh": 1939.75,
+        "Subu": 1933.25,
+        "Vishnu": 1920.5
+      }
+    },
+    {
+      "date": "2024-06-20T18:19:35.450Z",
+      "matchNumber": 43,
+      "points": {
+        "Sakthi": 2414.74,
+        "Sathish": 2149,
+        "Sanjay": 1897.04,
+        "Saran": 1936.75,
+        "Shashwat": 2139.01,
+        "Shriman": 2483.36,
+        "Yukesh": 1990.75,
+        "Subu": 1987.25,
+        "Vishnu": 1920.5
+      }
+    },
+    {
+      "date": "2024-06-22T05:05:57.281Z",
+      "matchNumber": 44,
+      "points": {
+        "Sakthi": 2432.74,
+        "Sathish": 2200.25,
+        "Sanjay": 2018.29,
+        "Saran": 2078.75,
+        "Shashwat": 2230.01,
+        "Shriman": 2483.36,
+        "Yukesh": 2055.75,
+        "Subu": 2115.25,
+        "Vishnu": 1931.5
+      }
+    },
+    {
+      "date": "2024-06-22T05:35:01.245Z",
+      "matchNumber": 45,
+      "points": {
+        "Sakthi": 2502.99,
+        "Sathish": 2281.25,
+        "Sanjay": 2157.29,
+        "Saran": 2078.75,
+        "Shashwat": 2438.26,
+        "Shriman": 2558.36,
+        "Yukesh": 2118.75,
+        "Subu": 2287.25,
+        "Vishnu": 2005.5
+      }
+    },
+    {
+      "date": "2024-06-22T05:37:30.052Z",
+      "matchNumber": 46,
+      "points": {
+        "Sakthi": 2539.99,
+        "Sathish": 2286.25,
+        "Sanjay": 2157.29,
+        "Saran": 2132.75,
+        "Shashwat": 2438.26,
+        "Shriman": 2558.36,
+        "Yukesh": 2298.75,
+        "Subu": 2376.25,
+        "Vishnu": 2144.5
+      }
+    },
+    {
+      "date": "2024-06-23T03:04:32.253Z",
+      "matchNumber": 47,
+      "points": {
+        "Sakthi": 2599.99,
+        "Sathish": 2348.25,
+        "Sanjay": 2311.79,
+        "Saran": 2136.75,
+        "Shashwat": 2590.26,
+        "Shriman": 2726.86,
+        "Yukesh": 2394.75,
+        "Subu": 2481.25,
+        "Vishnu": 2144.5
+      }
+    },
+    {
+      "date": "2024-06-23T04:28:00.323Z",
+      "matchNumber": 48,
+      "points": {
+        "Sakthi": 2725.99,
+        "Sathish": 2383.25,
+        "Sanjay": 2360.54,
+        "Saran": 2319.25,
+        "Shashwat": 2816.26,
+        "Shriman": 2799.36,
+        "Yukesh": 2500.25,
+        "Subu": 2498.25,
+        "Vishnu": 2203.5
+      }
+    },
+    {
+      "date": "2024-06-23T17:15:18.433Z",
+      "matchNumber": 49,
+      "points": {
+        "Sakthi": 2725.99,
+        "Sathish": 2469.25,
+        "Sanjay": 2410.54,
+        "Saran": 2319.25,
+        "Shashwat": 2828.26,
+        "Shriman": 2834.36,
+        "Yukesh": 2500.25,
+        "Subu": 2615.25,
+        "Vishnu": 2482.5
+      }
+    },
+    {
+      "date": "2024-06-24T05:18:52.280Z",
+      "matchNumber": 50,
+      "points": {
+        "Sakthi": 2854.74,
+        "Sathish": 2522.25,
+        "Sanjay": 2541.54,
+        "Saran": 2396.25,
+        "Shashwat": 2883.76,
+        "Shriman": 2834.36,
+        "Yukesh": 2525.25,
+        "Subu": 2779.25,
+        "Vishnu": 2672.5
+      }
+    },
+    {
+      "date": "2024-06-24T18:26:32.041Z",
+      "matchNumber": 51,
+      "points": {
+        "Sakthi": 2891.74,
+        "Sathish": 2601.75,
+        "Sanjay": 2664.04,
+        "Saran": 2464.75,
+        "Shashwat": 3096.26,
+        "Shriman": 2905.86,
+        "Yukesh": 2730.75,
+        "Subu": 2981.25,
+        "Vishnu": 2774.5
+      }
+    },
+    {
+      "date": "2024-06-25T05:36:32.415Z",
+      "matchNumber": 52,
+      "points": {
+        "Sakthi": 3025.74,
+        "Sathish": 2758.75,
+        "Sanjay": 2705.04,
+        "Saran": 2464.75,
+        "Shashwat": 3136.26,
+        "Shriman": 2973.86,
+        "Yukesh": 2867.75,
+        "Subu": 2981.25,
+        "Vishnu": 2774.5
+      }
+    },
+    {
+      "date": "2024-06-27T03:17:08.026Z",
+      "matchNumber": 53,
+      "points": {
+        "Sakthi": 3160.49,
+        "Sathish": 2784.75,
+        "Sanjay": 2822.04,
+        "Saran": 2464.75,
+        "Shashwat": 3240.26,
+        "Shriman": 3044.86,
+        "Yukesh": 2873.75,
+        "Subu": 3088.25,
+        "Vishnu": 2820.5
+      }
+    },
+    {
+      "date": "2024-06-28T02:09:40.239Z",
+      "matchNumber": 54,
+      "points": {
+        "Sakthi": 3236.49,
+        "Sathish": 2828.75,
+        "Sanjay": 2932.04,
+        "Saran": 2491.75,
+        "Shashwat": 3396.76,
+        "Shriman": 3142.86,
+        "Yukesh": 2954.75,
+        "Subu": 3370.75,
+        "Vishnu": 2949.5
+      }
+    },
+    {
+      "date": "2024-06-29T20:19:18.008Z",
+      "matchNumber": 55,
+      "points": {
+        "Sakthi": 3365.74,
+        "Sathish": 2972.75,
+        "Sanjay": 3151.04,
+        "Saran": 2497.75,
+        "Shashwat": 3754.01,
+        "Yukesh": 3005.75,
+        "Shriman": 3256.36,
+        "Vishnu": 2958.5,
+        "Subu": 3382.75
+      }
+    }
+  ]
+}

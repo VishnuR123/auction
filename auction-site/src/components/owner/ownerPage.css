@@ -1,0 +1,494 @@
+/* IPL25 OwnerPage layout, adapted for auction-site + theme */
+
+/* Selected owner tint (--owner-* set inline from primaryColor) */
+.owner-page-shell {
+  margin: -8px -4px 0;
+  padding: 8px 4px 24px;
+  min-height: calc(100vh - 108px);
+  background: var(--owner-page-bg, transparent);
+  border-radius: 0.35rem;
+  transition: background 0.35s ease;
+}
+
+@media (max-width: 900px) {
+  .owner-page-shell {
+    margin: -8px -4px 0;
+    min-height: min(70vh, 640px);
+  }
+}
+
+.owner-page__empty,
+.owner-page__hint {
+  margin: 0;
+  padding: 16px;
+  text-align: center;
+  color: #64748b;
+  font-size: 0.875rem;
+}
+
+[data-theme="dark"] .live-shell .owner-page__empty,
+[data-theme="dark"] .live-shell .owner-page__hint {
+  color: #cbd5e1;
+}
+
+.owner-main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 12px 24px 24px;
+  min-height: 60vh;
+}
+
+.owner-container {
+  border-radius: 0.4rem;
+  box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.06);
+  font-size: 0.8125rem;
+}
+
+[data-theme="light"] .live-shell .owner-page-shell .owner-container {
+  background-color: var(--owner-container-bg, #ffffff);
+  border: 1px solid var(--owner-border-subtle, #e8ecf1);
+  color: #0f172a;
+  transition: background-color 0.35s ease, border-color 0.35s ease;
+}
+
+[data-theme="dark"] .live-shell .owner-page-shell .owner-container {
+  background-color: var(--owner-container-bg, #0a0b0c);
+  border: 1px solid var(--owner-border-subtle, #23252a);
+  color: #e8e8e8;
+  transition: background-color 0.35s ease, border-color 0.35s ease;
+}
+
+.owner-container > h3,
+.owner-container > h2 {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.owner-parent {
+  display: grid;
+  grid-template-areas:
+    "a b c"
+    "a b d";
+  grid-template-columns: 1fr 1.2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.players-list {
+  grid-area: a;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  /* ~laptop column height; list has no inner scroll — page scrolls if needed */
+  min-height: 480px;
+}
+
+@media (max-width: 900px) {
+  .players-list {
+    min-height: auto;
+  }
+}
+
+/* —— Player list: table layout for aligned columns —— */
+.owner-players {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+}
+
+.owner-players__title {
+  margin: 0;
+  padding: 8px 10px 5px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-bottom: 1px solid var(--owner-border-subtle, rgba(148, 163, 184, 0.35));
+  flex-shrink: 0;
+}
+
+.owner-players__body {
+  flex: 1;
+  min-height: 0;
+}
+
+.owner-players__empty {
+  padding: 20px 14px !important;
+}
+
+.owner-players__table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 0.7rem;
+  line-height: 1.25;
+}
+
+.owner-players__table thead th {
+  text-align: left;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 5px 8px;
+  background: var(--owner-table-header-bg, #f8fafc);
+  border-bottom: 1px solid var(--owner-border-subtle, #e2e8f0);
+  color: #64748b;
+}
+
+[data-theme="dark"] .live-shell .owner-players__table thead th {
+  color: #e8e8e8;
+}
+
+.owner-players__col-pts {
+  width: 3.85rem;
+  text-align: right !important;
+  font-variant-numeric: tabular-nums;
+}
+
+.owner-players__table tbody td {
+  padding: 3px 8px;
+  vertical-align: middle;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+[data-theme="dark"] .live-shell .owner-players__table tbody td {
+  border-bottom-color: rgba(35, 37, 42, 0.85);
+}
+
+.owner-players__table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.owner-players__table tbody tr.owner-players__row {
+  cursor: pointer;
+  transition: filter 0.12s ease, box-shadow 0.12s ease;
+}
+
+.owner-players__table tbody tr.owner-players__row:hover td {
+  background-color: #f1f5f9;
+}
+
+[data-theme="dark"] .live-shell .owner-players__table tbody tr.owner-players__row:hover td {
+  background-color: #1f1f1f;
+  color: #fafafa;
+}
+
+.owner-players__table tbody tr.owner-players__row:focus-visible {
+  outline: none;
+}
+
+.owner-players__table tbody tr.owner-players__row:focus-visible td {
+  box-shadow: inset 0 0 0 1px var(--auction-accent, #6366f1);
+}
+
+.owner-players__table tbody tr.owner-players__row--selected td {
+  box-shadow: inset 0 0 0 1px var(--auction-accent, #6366f1);
+}
+
+.owner-players__name-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.owner-players__name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.owner-players__os-icon {
+  width: 13px;
+  height: 13px;
+  object-fit: contain;
+  flex-shrink: 0;
+  opacity: 0.88;
+}
+
+.owner-players__table tbody tr.owner-players__row--captain td {
+  background-color: #c2ffb3;
+  color: #0f172a;
+}
+
+.owner-players__table tbody tr.owner-players__row--vice td {
+  background-color: #e0b3ff;
+  color: #334155;
+}
+
+.owner-players__table tbody tr.owner-players__row--injured td {
+  background-color: rgba(239, 68, 68, 0.16);
+  color: #b91c1c;
+}
+
+.owner-players__table tbody tr.owner-players__row--injured .owner-players__os-icon {
+  opacity: 1;
+}
+
+.owner-players__table tbody tr.owner-players__row--eliminated td {
+  background-color: rgba(220, 38, 38, 0.18);
+  color: #991b1b;
+}
+
+[data-theme="dark"] .live-shell .owner-players__table tbody tr.owner-players__row--captain td {
+  background-color: rgba(194, 255, 179, 0.35);
+  color: #f1f5f9;
+}
+
+[data-theme="dark"] .live-shell .owner-players__table tbody tr.owner-players__row--vice td {
+  background-color: rgba(224, 179, 255, 0.32);
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .live-shell .owner-players__table tbody tr.owner-players__row--injured td {
+  background-color: rgba(248, 113, 113, 0.18);
+  color: #fca5a5;
+}
+
+[data-theme="dark"] .live-shell .owner-players__table tbody tr.owner-players__row--eliminated td {
+  background-color: rgba(248, 113, 113, 0.2);
+  color: #fecaca;
+}
+
+.country-radar {
+  grid-area: b;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 8px 8px 12px;
+}
+
+.country-radar > h3 {
+  text-align: center;
+  margin: 8px 0 4px;
+}
+
+.role-pie {
+  grid-area: c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  min-height: 0;
+}
+
+.role-pie > h3 {
+  margin: 8px 0 12px;
+}
+
+.role-pie__caption {
+  margin: 4px 0 0;
+  font-size: 0.7rem;
+  opacity: 0.75;
+  text-align: center;
+}
+
+.individual-points {
+  grid-area: d;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 0;
+}
+
+/* Match breakdown (player row click): same table scale as squad list */
+.owner-match-points {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+  width: 100%;
+}
+
+.owner-match-points--idle {
+  min-height: 112px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.owner-match-points__title {
+  margin: 0;
+  padding: 8px 10px 5px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-bottom: 1px solid var(--owner-border-subtle, rgba(148, 163, 184, 0.35));
+  flex-shrink: 0;
+}
+
+.owner-match-points__body {
+  flex: 1;
+  min-height: 0;
+}
+
+.owner-match-points__table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 0.7rem;
+  line-height: 1.25;
+}
+
+.owner-match-points__table thead th {
+  text-align: left;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 5px 8px;
+  background: var(--owner-table-header-bg, #f8fafc);
+  border-bottom: 1px solid var(--owner-border-subtle, #e2e8f0);
+  color: #64748b;
+}
+
+[data-theme="dark"] .live-shell .owner-match-points__table thead th {
+  color: #e8e8e8;
+}
+
+.owner-match-points__col-pts {
+  width: 3.85rem;
+  text-align: right !important;
+  font-variant-numeric: tabular-nums;
+}
+
+.owner-match-points__table tbody td {
+  padding: 3px 8px;
+  vertical-align: middle;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+[data-theme="dark"] .live-shell .owner-match-points__table tbody td {
+  border-bottom-color: rgba(35, 37, 42, 0.85);
+}
+
+.owner-match-points__table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.owner-match-points__empty {
+  padding: 14px 10px !important;
+  font-size: 0.7rem !important;
+}
+
+/* Inherit .owner-container text (#0f172a / #e2e8f0); fixed grays clashed with --owner-container-bg tint (same hue as default primary #64748b). */
+.owner-match-points__placeholder {
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-align: center;
+  color: inherit;
+  opacity: 0.82;
+  line-height: 1.4;
+}
+
+.alert {
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin: auto;
+  text-align: center;
+  color: #64748b;
+}
+
+[data-theme="dark"] .live-shell .alert {
+  color: #cbd5e1;
+}
+
+.owner-logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+[data-theme="light"] .live-shell .owner-logo-row {
+  background-color: transparent;
+}
+
+[data-theme="dark"] .live-shell .owner-logo-row {
+  background-color: transparent;
+}
+
+.owner-pick {
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 10px 14px;
+  min-width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  font-family: inherit;
+  /* background/color overridden per owner via inline style */
+}
+
+.owner-pick:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="dark"] .live-shell .owner-pick:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.owner-pick--active {
+  outline: 2px solid var(--auction-accent, #6366f1);
+  outline-offset: 2px;
+  border-color: transparent;
+}
+
+.owner-pick__logo {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
+.owner-pick__fallback {
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  max-width: 104px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .owner-parent {
+    grid-template-areas:
+      "a"
+      "d"
+      "b"
+      "c";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .owner-pick {
+    min-width: 64px;
+    padding: 8px 10px;
+  }
+
+  .owner-pick__logo {
+    width: 56px;
+    height: 56px;
+  }
+
+  .owner-pick__fallback {
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ipl-fantasy-data-extraction",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Manual helper to pull IPL fantasy gameday player points from session-authenticated API calls",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-gameday-points.mjs"
+  }
+}

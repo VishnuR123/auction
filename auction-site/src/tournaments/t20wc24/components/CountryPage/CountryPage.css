@@ -1,0 +1,301 @@
+/* MAIN DIV  */
+.country-content {
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+/* TWO SIDES FOR COUNTRIES */
+.c1-cont,
+.c2-cont {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.c1-cont{grid-area:a ;}
+.c2-cont{grid-area: b;}
+/* ACTUAL COUNTRY DIV */
+.country-1 {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    padding-right: 1rem;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.country-2 {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    padding-left: 1rem;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.country-1 {
+    grid-column: 2 / 4;
+    grid-row: 1 / span 3;
+}
+
+.country-2 {
+    grid-column: 1 / 3;
+    grid-row: 1 / span 3;
+}
+
+/* USED FOR CENTERING THE .country-list */
+.country-centering1 {
+    margin: 15px 0;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.country-centering2 {
+    margin: 15px 0;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.country-centering1 * {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: end;
+    list-style-type: none;
+}
+
+.country-centering2 * {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    list-style-type: none;
+}
+
+.country-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+    border-style: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 14px;
+    color: #22222200;
+    padding: 4px 16px;
+    cursor: pointer;
+    outline: none;
+    aspect-ratio: 1.5;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+.country-select>option {
+    color: #222222;
+}
+@media (max-width: 400px) {
+    .country-select {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;        
+        padding: 0px 0px;
+        outline: none;
+        aspect-ratio: 1.5;
+        min-height: 50px;
+        max-height: 50px;
+    }
+    .country-content *{
+        font-size: 0.7rem;
+    }
+
+}
+/* BACKGROUND IMAGES */
+.c2-cont.IND,
+.c1-cont.IND {
+    background-image: url('../../assets/countries/IND.jpg');
+}
+
+.c2-cont.PAK,
+.c1-cont.PAK {
+    background-image: url('../../assets/countries/PAK.jpg');
+}
+
+.c2-cont.USA,
+.c1-cont.USA {
+    background-image: url('../../assets/countries/USA.avif');
+}
+
+.c2-cont.IRE,
+.c1-cont.IRE {
+    background-image: url('../../assets/countries/IRE.jpeg');
+}
+
+.c2-cont.ENG,
+.c1-cont.ENG {
+    background-image: url('../../assets/countries/ENG2.jfif');
+}
+
+.c2-cont.AUS,
+.c1-cont.AUS {
+    background-image: url('../../assets/countries/AUS.jfif');
+}
+
+.c2-cont.AFG,
+.c1-cont.AFG {
+    background-image: url('../../assets/countries/AFG.jpg');
+}
+
+.c2-cont.BAN,
+.c1-cont.BAN {
+    background-image: url('../../assets/countries/BAN1.jpg');
+    /* background-position:55%; */
+    /* background-size: contain; */
+}
+
+.c2-cont.NED,
+.c1-cont.NED {
+    background-image: url('../../assets/countries/NED.jpg');
+}
+
+.c2-cont.NZ,
+.c1-cont.NZ {
+    background-image: url('../../assets/countries/NZ.jpg');
+}
+
+.c2-cont.WI,
+.c1-cont.WI {
+    background-image: url('../../assets/countries/WI.jpg');
+}
+
+.c2-cont.SA,
+.c1-cont.SA {
+    background-image: url('../../assets/countries/SA.jpg');
+}
+
+.c2-cont.SL,
+.c1-cont.SL {
+    background-image: url('../../assets/countries/SL.jpg');
+    background-position: top;
+}
+
+/* backdrop color */
+.country-1.IND {
+    background: linear-gradient(to left, var(--india-primary)0%, var(--india-grad)80%, #00000000 100%);
+}
+
+.country-1.PAK {
+    background: linear-gradient(to left, var(--pakistan-primary) 0%, var(--pakistan-grad) 80%, #00000000 100%);
+}
+
+.country-1.USA {
+    background: linear-gradient(to left, var(--usa-primary) 0%, var(--usa-grad) 80%, #00000000 100%);
+}
+
+.country-1.IRE {
+    background: linear-gradient(to left, var(--ireland-secondary-2) 0%, var(--ireland-grad) 80%, #00000000 100%);
+}
+
+.country-1.ENG {
+    background: linear-gradient(to left, var(--eng-primary-2) 0%, var(--eng-grad-2) 80%, #00000000 100%);
+}
+
+.country-1.AUS {
+    background: linear-gradient(to left, var(--aus-primary-2) 0%, var(--aus-grad-2) 80%, #00000000 100%);
+}
+
+.country-1.AFG {
+    background: linear-gradient(to left, var(--afg-primary) 0%, var(--afg-grad) 80%, #00000000 100%);
+}
+
+.country-1.BAN {
+    background: linear-gradient(to left, var(--bangladesh-primary) 0%, var(--bangladesh-grad) 80%, #00000000 100%);
+}
+
+.country-1.NED {
+    background: linear-gradient(to left, var(--netherlands-primary) 0%, var(--netherlands-grad) 80%, #00000000 100%);
+}
+
+.country-1.NZ {
+    background: linear-gradient(to left, var(--nz-primary) 0%, var(--nz-grad) 60%, #00000000 100%);
+}
+
+.country-1.WI {
+    background: linear-gradient(to left, var(--wi-primary) 0%, var(--wi-grad) 80%, #00000000 100%);
+}
+
+.country-1.SA {
+    background: linear-gradient(to left, var(--sa-primary) 0%, var(--sa-grad) 80%, #00000000 100%);
+}
+
+.country-1.SL {
+    background: linear-gradient(to left, var(--sri-lanka-primary-2) 0%, var(--sri-lanka-grad-2) 80%, #00000000 100%);
+}
+
+
+.country-2.IND {
+    background: linear-gradient(to right, var(--india-primary) 0%, var(--india-grad) 80%, #00000000 100%);
+}
+
+.country-2.PAK {
+    background: linear-gradient(to right, var(--pakistan-primary) 0%, var(--pakistan-grad) 80%, #00000000 100%);
+}
+
+.country-2.USA {
+    background: linear-gradient(to right, var(--usa-primary) 0%, var(--usa-grad) 80%, #00000000 100%);
+}
+
+.country-2.IRE {
+    background: linear-gradient(to right, var(--ireland-secondary-2) 0%, var(--ireland-grad) 80%, #00000000 100%);
+}
+
+.country-2.ENG {
+    background: linear-gradient(to right, var(--eng-primary-2) 0%, var(--eng-grad-2) 80%, #00000000 100%);
+}
+
+.country-2.AUS {
+    background: linear-gradient(to right, var(--aus-primary-2) 0%, var(--aus-grad-2) 80%, #00000000 100%);
+}
+
+.country-2.AFG {
+    background: linear-gradient(to right, var(--afg-primary) 0%, var(--afg-grad) 80%, #00000000 100%);
+}
+
+.country-2.BAN {
+    background: linear-gradient(to right, var(--bangladesh-primary) 0%, var(--bangladesh-grad) 80%, #00000000 100%);
+}
+
+.country-2.NED {
+    background: linear-gradient(to right, var(--netherlands-primary) 0%, var(--netherlands-grad) 80%, #00000000 100%);
+}
+
+.country-2.NZ {
+    background: linear-gradient(to right, var(--nz-primary) 0%, var(--nz-grad) 60%, #00000000 100%);
+}
+
+.country-2.WI {
+    background: linear-gradient(to right, var(--wi-primary) 0%, var(--wi-grad) 80%, #00000000 100%);
+}
+
+.country-2.SA {
+    background: linear-gradient(to right, var(--sa-primary) 0%, var(--sa-grad) 80%, #00000000 100%);
+}
+
+.country-2.SL {
+    background: linear-gradient(to right, var(--sri-lanka-primary-2) 0%, var(--sri-lanka-grad-2) 80%, #00000000 100%);
+}

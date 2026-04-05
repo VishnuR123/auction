@@ -1,0 +1,243 @@
+/*
+ * T20 WC 26 — tweak window size & position here (all in one place).
+ *
+ * Sizes (display width of the screenshot inside the XP frame):
+ *   --t20wc26-points-img-w    Points table (~80% of original 422px)
+ *   --t20wc26-players-img-w   Player list (~65% of original 1089px = 35% smaller)
+ *
+ * Position (each window is position:absolute inside the desktop):
+ *   --t20wc26-points-top / --t20wc26-points-left
+ *   --t20wc26-players-bottom / --t20wc26-players-right
+ *   Use px, %, or clamp(min, preferred, max).
+ *
+ * Mobile (max-width: 768px): windows stack in a column; desktop area scrolls.
+ *
+ * Title bar (XP chrome):
+ *   --t20wc26-titlebar-min-height   Minimum height of the blue title strip
+ *   --t20wc26-titlebar-padding-y    Extra vertical padding inside the title bar
+ */
+.t20wc26-shell-root {
+  --t20wc26-points-img-w: 338px;
+  --t20wc26-players-img-w: 708px;
+
+  --t20wc26-titlebar-min-height: 1.75rem;
+  --t20wc26-titlebar-padding-y: 0.2rem;
+
+  --t20wc26-points-top: clamp(1.25rem, 5vh, 2.75rem);
+  /* --t20wc26-points-left: clamp(0.75rem, 4vw, 3.5rem); */
+  --t20wc26-points-left: clamp(0.75rem, 8vw, 10rem);
+  --t20wc26-players-bottom: clamp(2.75rem, 11vh, 5.5rem);
+  --t20wc26-players-right: clamp(0.75rem, 4vw, 3.5rem);
+
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: #0b1120;
+  color: #e2e8f0;
+}
+
+.t20wc26-shell-toolbar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 16px;
+  background: #0f172a;
+  border-bottom: 1px solid #1e293b;
+  position: relative;
+  z-index: 200;
+}
+
+.t20wc26-shell-body {
+  flex: 1 1 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Desktop: XP blue shows if wallpaper image fails to load. */
+.t20wc26-shell-desktop {
+  position: relative;
+  flex: 1 1 0;
+  min-height: 0;
+  background-color: #004e98;
+  padding: 20px 16px 44px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t20wc26-wallpaper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Layer for absolutely positioned windows (full desktop area). */
+.t20wc26-desktop-foreground {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.t20wc26-xp-window {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.45);
+  pointer-events: auto;
+}
+
+/* Taller title bar than default XP.css (scoped to these windows only). */
+.t20wc26-xp-window .title-bar {
+  min-height: var(--t20wc26-titlebar-min-height);
+  box-sizing: border-box;
+  padding-top: var(--t20wc26-titlebar-padding-y);
+  padding-bottom: var(--t20wc26-titlebar-padding-y);
+  display: flex;
+  align-items: center;
+}
+
+.t20wc26-xp-window .title-bar-text {
+  line-height: 1.2;
+}
+
+/* Points table — upper-left; width tracks --t20wc26-points-img-w */
+.t20wc26-xp-window--points {
+  position: absolute;
+  top: var(--t20wc26-points-top);
+  left: var(--t20wc26-points-left);
+  width: var(--t20wc26-points-img-w);
+  max-width: calc(100% - 2rem);
+  max-height: calc(100% - 3rem);
+}
+
+/* Player list — lower-right; width tracks --t20wc26-players-img-w */
+.t20wc26-xp-window--players {
+  position: absolute;
+  bottom: var(--t20wc26-players-bottom);
+  right: var(--t20wc26-players-right);
+  width: min(var(--t20wc26-players-img-w), calc(100vw - 2rem));
+  max-height: calc(100% - 3rem);
+}
+
+.t20wc26-window-body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: auto;
+  flex: 1;
+  min-height: 0;
+  background: #fff;
+}
+
+.t20wc26-window-body--points {
+  flex: 0 0 auto;
+}
+
+.t20wc26-window-body--players {
+  flex: 0 0 auto;
+}
+
+.t20wc26-points-screenshot {
+  display: block;
+  width: var(--t20wc26-points-img-w);
+  max-width: 100%;
+  height: auto;
+}
+
+.t20wc26-player-list-screenshot {
+  display: block;
+  width: var(--t20wc26-players-img-w);
+  max-width: 100%;
+  height: auto;
+}
+
+.taskbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 150;
+  background: linear-gradient(
+    180deg,
+    #0997ff,
+    #0053ee 8%,
+    #0050ee 40%,
+    #06f 88%,
+    #06f 93%,
+    #005bff 95%,
+    #003dd7 96%,
+    #003dd7
+  );
+  height: 30px;
+  display: flex;
+  align-items: stretch;
+}
+
+.taskbar__start {
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-style: italic;
+  border: none;
+  border-radius: 0 10px 12px 0;
+  box-shadow: 0 5px 10px #79ce71 inset;
+  background: radial-gradient(circle, #5eac56 0%, #3c873c 100%) center / cover
+    no-repeat !important;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 10px 0 6px;
+  cursor: default;
+}
+
+.taskbar__start--logo {
+  width: auto;
+  height: 80%;
+  pointer-events: none;
+}
+
+/* Narrow screens: stack Points + Player list vertically (no overlap) */
+@media (max-width: 768px) {
+  .t20wc26-shell-desktop {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 12px 12px 44px;
+    align-items: center;
+  }
+
+  .t20wc26-desktop-foreground {
+    position: relative;
+    inset: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 0.25rem 0 0;
+    box-sizing: border-box;
+  }
+
+  .t20wc26-xp-window--points,
+  .t20wc26-xp-window--players {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: 85%;
+    max-width: min(var(--t20wc26-players-img-w), 100%);
+    max-height: none;
+  }
+}

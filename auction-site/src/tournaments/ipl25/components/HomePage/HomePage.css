@@ -1,0 +1,392 @@
+:root {
+  --purple : #10044a;
+  --pink1 :#da2c5a;
+  --pink2:#ff0088;
+  --blue:#3c2cfb;
+  --vampireblack:#0A0A0A;
+
+  /* team colors  */
+  --DA-bg: #001b73; 
+  --DA-text:#dc2a53;
+
+  --X11-bg: #aa0000;
+  --X11-text: #ffb81c;
+  --Ego-bg: #fff;
+  --Ego-text: #1046a9;
+  --LBW-bg: #005aa9;
+  --LBW-text: #ffd141;
+  --RCB-bg: #5904a1;
+  --RCB-text: #fff;
+  --4thS-bg: #000000;
+  --4thS-text: #ffffff;
+  --RTB-bg:#025b44;
+  --RTB-text:#fff;
+  --C11-bg: #0f2c2e;
+  --C11-text: #59bb81;
+  --CBL-bg: #ffff00;
+  --CBL-text: #00843d;
+  --CBL-t2:#003335;
+  
+}
+.ipl25-home{
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.ipl25-home .home-grid {
+  font-size: medium;
+  display: grid;
+  grid-template-areas:
+    "a b c d";
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  align-items: stretch;
+  justify-items: stretch;
+  gap: 30px;
+  padding: 30px 30px;
+}
+
+.ipl25-home .home-grid2 {
+  font-size: medium;
+  display: grid;
+  grid-template-areas:"e f";
+  grid-template-columns: 5fr 3fr;
+  gap: 30px;
+  padding-left:30px ;
+  padding-right:30px ;
+  padding-bottom: 30px;
+}
+/* HOME GRID 1 */
+.ipl25-home .home-grid > div{
+  /* max-height: 50vh; */
+}
+.ipl25-home .main-table { grid-area: a;}
+.ipl25-home .today-table { grid-area: b;}
+.ipl25-home .main-contributor { grid-area: c ;}
+.ipl25-home .matches-left{ grid-area: d; }
+/* HOME GRID 2 */
+.ipl25-home .graph-1 { grid-area: e; min-width: 500px; }
+.ipl25-home .total-contribution{grid-area: f;}
+
+.ipl25-home .container {
+  font-size: 0.9rem;
+  gap: 0;
+  background: #fff;
+  /* background: #e1eaf1; */
+  border-radius: 0.5rem;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.055);
+}
+
+.ipl25-home .home-title {
+  font-size: 2rem;
+  font-weight: 500 !important;
+  text-align: center;
+}
+/* MAIN TABLE */
+.ipl25-home .main-table{
+  /* height: 50vh; */
+  margin: 0;
+  box-sizing: border-box;
+  padding: 10px ;
+  /* overflow:scroll; */
+  /* box-sizing: border-box; */
+}
+
+
+/* TODAY TABLE */
+.ipl25-home .today-table{
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* MAIN CONTRIBUTOR */
+.ipl25-home .main-contributor{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+  padding: 0px;
+  background-color: var(--purple) !important;
+  color: white;
+  font-weight: 300;
+  z-index: -2;
+  overflow: hidden;
+}
+.ipl25-home .main-contributor > h3,
+.ipl25-home .main-contributor > p {
+  z-index: -1;
+  margin-bottom: 3px;
+  text-align: center;
+  max-width: 80%;
+}
+.ipl25-home .blob,.ipl25-home .blob1,.ipl25-home .blob2,.ipl25-home .blob3{
+  /* bottom: -60px; */
+  z-index: -4;
+  /* bottom: -5px;
+  left: -20px; */
+  /* opacity: 0.2; */
+  width: 270px;
+  /* height: 250px; */
+  position: absolute; 
+}
+.ipl25-home .blob1,.ipl25-home .blob{
+  opacity: 0.2;
+  rotate: -20deg;
+  }
+  .ipl25-home .blob3,.ipl25-home .blob2{
+  opacity: 0.24;
+  rotate: -50deg;
+}
+
+/* MATCHES LEFT */
+.ipl25-home .matches-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.ipl25-home .matches-left > h3{
+  padding: 10px 10px 10px 0px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+/* GRAPH 1 */
+.ipl25-home .graph-1{
+  height: fit-content;
+  padding: 10px;
+  /* background-color: #eb413e; */
+  /* background-color: #10044a; */
+  /* color: #fff; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+
+}
+.ipl25-home .graph-1 h3{
+  padding: 0;
+  font-weight: 500;
+  margin: 10px 0px 20px 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.ipl25-home .total-contribution{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.ipl25-home .total-contribution > h3{
+  /* padding-top: 20px; */
+  font-weight: 500;
+  margin: 0;
+  overflow: hidden;
+}
+@media (max-width:450px) {
+  .ipl25-home{
+    width: 100dvw;
+  }
+  .ipl25-home .home-grid{
+    grid-template-areas:
+    "a" 
+    "b" 
+    "c" 
+    "d";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.7fr;
+    justify-items:stretch;
+    padding: 20px 10px 20px 10px;
+    gap: 20px;
+  }
+  .ipl25-home .home-grid2{
+    grid-template-areas:
+    "e"
+    "f" ;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto ;
+    /* justify-items:stretch; */
+  }
+}
+/* Points Table Container */
+.ipl25-home .points-table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  /* color: #333; */
+  overflow: hidden;
+}
+.ipl25-home .ipl25-today-points {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333; /* Dark text for light theme */
+}
+
+/* Table Header */
+.ipl25-home .table-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #eeeeee; /* Light gray background */
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #555; /* Slightly darker text for contrast */
+}
+
+/* Table Body */
+.ipl25-home .table-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+/* Table Row */
+.ipl25-home .table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding: 0 15px;
+  padding-left: 10px;
+  background-color: #ffffff; 
+  border: none;
+  border-radius: 3px;
+  
+}
+.ipl25-home .ipl25-today-points .table-row{
+  padding: 5.4px 15px;
+}
+/* Add gap between Pts and Df columns */
+.ipl25-home .points-table .points-column,
+.ipl25-home .points-table .points-header {
+  margin-right: 20px; /* Add space between Pts and Df */
+}
+
+.ipl25-home .difference-column {
+  text-align: right;
+}
+
+/* Team Column */
+.ipl25-home .team-column {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.ipl25-home .team-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+@media (max-width: 450px) {
+  .ipl25-home .team-logo {
+    width: 25px;
+    height: 25px;
+  }
+}
+.ipl25-home .team-name {
+  font-size: 0.9rem;
+  /* font-size: 1rem; */
+  font-weight: 500;
+  /* font-weight: 700; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* color: #333;  */
+}
+
+/* Points and Difference Columns */
+.ipl25-home .points-column,
+.ipl25-home .difference-column {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: right;
+  min-width: 50px;
+  /* color: #333; */
+}
+
+/* Header Columns */
+.ipl25-home .team-header {
+  flex: 1;
+  text-align: left;
+}
+.ipl25-home .team-header2 {
+  flex: 1;
+  text-align: center;
+}
+
+.ipl25-home .points-header,
+.ipl25-home .difference-header {
+  min-width: 50px;
+  text-align: right;
+}
+
+.ipl25-home .table-row.Nine-11{
+  background-color: var(--X11-bg);
+  color: var(--X11-text);
+}
+.ipl25-home .table-row.Egoists{
+  background-color: var(--Ego-bg);
+  color: var(--Ego-text);
+}
+.ipl25-home .table-row.LBW{
+  background-color: var(--LBW-bg);
+  color: var(--LBW-text)
+}
+.ipl25-home .table-row.RCBangbros{
+  background-color: var(--RCB-bg); 
+  color: var(--RCB-text); 
+}
+
+.ipl25-home .table-row._4th-Stump{
+  background-color: var(--4thS-bg); 
+  color: var(--4thS-text); 
+} 
+
+.ipl25-home .table-row.Daddies-Army {
+  background-color: var(--DA-bg); 
+  color: var(--DA-text); 
+}
+
+.ipl25-home .table-row.Retro-Boys {
+  background-color: var(--RTB-bg);
+  color: var(--RTB-text);
+}
+
+.ipl25-home .table-row.Cumball {
+  background-color: var(--CBL-bg);
+  color: var(--CBL-text)
+}
+
+.ipl25-home .table-row.Chill-11 {
+  background-color: var(--C11-bg); 
+  color: var(--C11-text);
+}
+
+/* Matches Left CSS */
+.ipl25-home .graph-container {
+  background-color:transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100%; 
+}
