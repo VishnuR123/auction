@@ -274,9 +274,9 @@ export default function PastResultsPage() {
                       more.&rsquo;
                     </p>
                     <footer className="past-results__credit-attribution">
-                      &ndash; Tukesh{" "}
+                      &ndash; <s>Nick Fury</s> Tukesh{" "}
                       <span className="past-results__credit-role">
-                        (Nick Fury/Creator of Mass boys auction)
+                        (Creator of Mass boys auction)
                       </span>
                     </footer>
                   </blockquote>
